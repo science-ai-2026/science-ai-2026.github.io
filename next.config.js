@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/science-ai',
+  basePath: '/science-ai-2026',
   images: {
     unoptimized: true,
   },
