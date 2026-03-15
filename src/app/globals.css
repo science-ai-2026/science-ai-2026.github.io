@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Pro:wght@400;600;700&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-white text-neutral-800 font-sans;
+  }
+
+  ::selection {
+    @apply bg-primary-100 text-primary-900;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  .section-heading {
+    @apply text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight;
+  }
+
+  .section-lead {
+    @apply text-lg text-neutral-700 max-w-3xl mt-4 leading-relaxed;
+  }
+
+  .card {
+    @apply bg-white rounded border border-neutral-300 p-6;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-5 py-2.5
+           bg-secondary-500 text-white font-normal text-sm
+           hover:bg-secondary-600 transition-colors duration-150
+           focus:outline-none focus:ring-1 focus:ring-secondary-500;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-5 py-2.5
+           bg-white text-neutral-900 font-normal text-sm border border-neutral-400
+           hover:bg-neutral-50 transition-colors duration-150
+           focus:outline-none focus:ring-1 focus:ring-neutral-900;
+  }
+}
