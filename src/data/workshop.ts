@@ -244,7 +244,7 @@ export const schedule = {
     { time: '09:00 - 09:30', activity: 'Invited Talk #1', speaker: 'Jikai Jin', details: 'Title: Observational Studies & Prescriptive Scaling' },
     { time: '09:30 - 10:00', activity: 'Invited Talk #2', speaker: 'Surya Ganguli', details: 'Title: Physics of ML and Capability Emergence' },
     { time: '10:00 - 10:30', activity: 'Invited Talk #3', speaker: 'Ludwig Schmidt', details: 'Title: Post-training Data & TerminalBench' },
-    { time: '10:30 - 11:15', activity: 'Panel Discussion #1', speaker: 'Jikai, Surya, Ludwig and Organizers' },
+    { time: '10:30 - 11:15', activity: 'Panel Discussion #1', speaker: 'Are scaling laws enough for predictive understanding?' },
     { time: '11:15 - 11:30', activity: 'Break', speaker: '' },
     { time: '11:30 - 13:00', activity: 'Poster Session', speaker: 'Accepted Papers' },
     { time: '13:00 - 14:30', activity: 'Lunch Break', speaker: '' },
@@ -253,7 +253,7 @@ export const schedule = {
     { time: '15:30 - 16:00', activity: 'Invited Talk #6', speaker: 'Zhiyuan Li', details: 'Title: TBA' },
     { time: '16:00 - 16:30', activity: 'Invited Talk #7', speaker: 'Mohammad Shoeybi', details: 'Title: TBA' },
     { time: '16:30 - 16:40', activity: 'Break', speaker: '' },
-    { time: '16:40 - 17:25', activity: 'Panel Discussion #2', speaker: 'Valentina, Andrew, Zhiyuan, Mohammad and Organizers' },
+    { time: '16:40 - 17:25', activity: 'Panel Discussion #2', speaker: 'Controlled Studies: science or engineering tool?' },
     { time: '17:25 - 17:30', activity: 'Closing Remarks / Best Papers Announcement', speaker: 'Workshop Organizers' },
   ],
 };
