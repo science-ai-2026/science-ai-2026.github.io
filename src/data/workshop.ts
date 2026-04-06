@@ -165,6 +165,62 @@ export const speakers = {
       imageUrl: null,
       initials: 'LS',
     },
+    {
+      name: 'Saining Xie',
+      affiliation: '', // TODO: Add affiliation
+      bio: '', // TODO: Add bio
+      website: '#', // TODO: Replace with actual website
+      imageUrl: null,
+      initials: 'SX',
+    },
+    {
+      name: 'Surya Ganguli',
+      affiliation: '', // TODO: Add affiliation
+      bio: '', // TODO: Add bio
+      website: '#', // TODO: Replace with actual website
+      imageUrl: null,
+      initials: 'SG',
+    },
+    {
+      name: 'Andrew Gordon Wilson',
+      affiliation: '', // TODO: Add affiliation
+      bio: '', // TODO: Add bio
+      website: '#', // TODO: Replace with actual website
+      imageUrl: null,
+      initials: 'AGW',
+    },
+    {
+      name: 'Zhiyuan Li',
+      affiliation: '', // TODO: Add affiliation
+      bio: '', // TODO: Add bio
+      website: '#', // TODO: Replace with actual website
+      imageUrl: null,
+      initials: 'ZL',
+    },
+    {
+      name: 'Hector Liu',
+      affiliation: '', // TODO: Add affiliation
+      bio: '', // TODO: Add bio
+      website: '#', // TODO: Replace with actual website
+      imageUrl: null,
+      initials: 'HL',
+    },
+    {
+      name: 'Valentina Pyatkin',
+      affiliation: '', // TODO: Add affiliation
+      bio: '', // TODO: Add bio
+      website: '#', // TODO: Replace with actual website
+      imageUrl: null,
+      initials: 'VP',
+    },
+    {
+      name: 'Mohammad Shoeybi',
+      affiliation: '', // TODO: Add affiliation
+      bio: '', // TODO: Add bio
+      website: '#', // TODO: Replace with actual website
+      imageUrl: null,
+      initials: 'MS',
+    },
   ],
 };
 
@@ -173,32 +229,32 @@ export const schedule = {
   lead: 'A full-day program designed to balance deep technical talks with open discussion and community engagement.',
   format: [
     { type: 'Opening Remarks', description: 'Welcome and framing of the workshop\'s scientific goals.' },
-    { type: 'Invited Talks', description: 'In-depth presentations from leading researchers on core themes.' },
-    { type: 'Contributed Spotlight Sessions', description: 'Selected papers presented as short talks highlighting key findings.' },
-    { type: 'Poster Sessions', description: 'Interactive poster presentations for all accepted papers.' },
-    { type: 'Thematic Panel Discussion', description: 'Moderated discussion on open questions and future directions.' },
+    { type: 'Invited Talks', description: 'Seven invited presentations spanning scaling, emergence, post-training, evaluation, and scientific methodology.' },
+    { type: 'Panel Discussions', description: 'Two moderated panel discussions bringing together speakers and organizers.' },
+    { type: 'Poster Session', description: 'A dedicated poster session for accepted papers and community discussion.' },
+    { type: 'Breaks & Lunch', description: 'Built-in time for informal conversations and continued technical exchange.' },
     { type: 'Closing Remarks & Awards', description: 'Summary, best paper awards, and next steps for the community.' },
   ],
   panelThemes: [
     'Are scaling laws enough for predictive understanding?',
-    'Controlled studies: science or engineering tool?',
-    'Can we predict capabilities before training?',
+    'Controlled Studies: science or engineering tool?',
   ],
-  // TODO: Replace placeholder times with confirmed schedule
   timeline: [
-    { time: '9:00 AM', event: 'Opening Remarks', duration: '15 min' },
-    { time: '9:15 AM', event: 'Invited Talk 1', duration: '45 min' },
-    { time: '10:00 AM', event: 'Contributed Spotlights (Session 1)', duration: '45 min' },
-    { time: '10:45 AM', event: 'Coffee Break', duration: '30 min' },
-    { time: '11:15 AM', event: 'Invited Talk 2', duration: '45 min' },
-    { time: '12:00 PM', event: 'Poster Session 1', duration: '60 min' },
-    { time: '1:00 PM', event: 'Lunch Break', duration: '60 min' },
-    { time: '2:00 PM', event: 'Invited Talk 3', duration: '45 min' },
-    { time: '2:45 PM', event: 'Contributed Spotlights (Session 2)', duration: '45 min' },
-    { time: '3:30 PM', event: 'Coffee Break', duration: '30 min' },
-    { time: '4:00 PM', event: 'Thematic Panel Discussion', duration: '60 min' },
-    { time: '5:00 PM', event: 'Poster Session 2', duration: '45 min' },
-    { time: '5:45 PM', event: 'Closing Remarks & Awards', duration: '15 min' },
+    { time: '08:55 - 09:00', activity: 'Opening Remarks', speaker: 'Workshop Organizers' },
+    { time: '09:00 - 09:30', activity: 'Invited Talk #1', speaker: 'Jikai Jin', details: 'Title: Observational Studies & Prescriptive Scaling' },
+    { time: '09:30 - 10:00', activity: 'Invited Talk #2', speaker: 'Surya Ganguli', details: 'Title: Physics of ML and Capability Emergence' },
+    { time: '10:00 - 10:30', activity: 'Invited Talk #3', speaker: 'Ludwig Schmidt', details: 'Title: Post-training Data & TerminalBench' },
+    { time: '10:30 - 11:15', activity: 'Panel Discussion #1', speaker: 'Jikai, Surya, Ludwig and Organizers' },
+    { time: '11:15 - 11:30', activity: 'Break', speaker: '' },
+    { time: '11:30 - 13:00', activity: 'Poster Session', speaker: 'Accepted Papers' },
+    { time: '13:00 - 14:30', activity: 'Lunch Break', speaker: '' },
+    { time: '14:30 - 15:00', activity: 'Invited Talk #4', speaker: 'Valentina Pyatkin', details: 'Title: Post-Training & Verifiable Alignment' },
+    { time: '15:00 - 15:30', activity: 'Invited Talk #5', speaker: 'Andrew Gordon Wilson', details: 'Title: TBA' },
+    { time: '15:30 - 16:00', activity: 'Invited Talk #6', speaker: 'Zhiyuan Li', details: 'Title: TBA' },
+    { time: '16:00 - 16:30', activity: 'Invited Talk #7', speaker: 'Mohammad Shoeybi', details: 'Title: TBA' },
+    { time: '16:30 - 16:40', activity: 'Break', speaker: '' },
+    { time: '16:40 - 17:25', activity: 'Panel Discussion #2', speaker: 'Valentina, Andrew, Zhiyuan, Mohammad and Organizers' },
+    { time: '17:25 - 17:30', activity: 'Closing Remarks / Best Papers Announcement', speaker: 'Workshop Organizers' },
   ],
 };
 

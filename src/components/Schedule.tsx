@@ -44,34 +44,56 @@ export default function Schedule() {
           {/* Timeline */}
           <div className="lg:col-span-3">
             <h3 className="text-sm font-semibold text-neutral-500 uppercase tracking-wider mb-4">
-              Tentative Schedule
+              Schedule Overview
             </h3>
             <div className="bg-white border border-neutral-300 overflow-hidden">
-              <div className="divide-y divide-neutral-100">
-                {schedule.timeline.map((slot, i) => {
-                  const isBreak = slot.event.toLowerCase().includes('break') || slot.event.toLowerCase().includes('lunch');
-                  return (
-                    <div
-                      key={i}
-                      className={`flex items-center gap-4 px-5 py-3.5 ${
-                        isBreak ? 'bg-neutral-50' : ''
-                      }`}
-                    >
-                      <span className="text-sm font-mono text-neutral-400 w-20 flex-shrink-0">
-                        {slot.time}
-                      </span>
-                      <span className={`text-sm flex-1 ${
-                        isBreak ? 'text-neutral-400' : 'text-neutral-800 font-medium'
-                      }`}>
-                        {slot.event}
-                      </span>
-                      <span className="text-xs text-neutral-400 flex-shrink-0">
-                        {slot.duration}
-                      </span>
-                    </div>
-                  );
-                })}
-              </div>
+              <table className="w-full border-collapse">
+                <thead className="bg-neutral-50 border-b border-neutral-300">
+                  <tr>
+                    <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-neutral-500 w-28">
+                      Time
+                    </th>
+                    <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-neutral-500 w-44">
+                      Activity
+                    </th>
+                    <th className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-neutral-500">
+                      Speaker
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {schedule.timeline.map((slot, i) => {
+                    const activityLower = slot.activity.toLowerCase();
+                    const isBreak = activityLower.includes('break');
+                    const isLunch = activityLower.includes('lunch');
+                    const muted = isBreak || isLunch;
+
+                    return (
+                      <tr
+                        key={i}
+                        className={`border-b border-neutral-100 align-top ${
+                          muted ? 'bg-neutral-50' : ''
+                        }`}
+                      >
+                        <td className="px-4 py-3 text-sm font-mono text-neutral-500">
+                          {slot.time}
+                        </td>
+                        <td className={`px-4 py-3 text-sm ${muted ? 'text-neutral-500' : 'text-neutral-900 font-medium'}`}>
+                          {slot.activity}
+                        </td>
+                        <td className="px-4 py-3 text-sm text-neutral-600">
+                          {slot.speaker && <div>{slot.speaker}</div>}
+                          {slot.details && (
+                            <div className="mt-1 text-neutral-500">
+                              {slot.details}
+                            </div>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
             </div>
             <p className="mt-3 text-xs text-neutral-400 italic">
               Schedule is tentative and subject to change. All times are in local conference time.
