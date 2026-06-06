@@ -42,6 +42,7 @@ export const hero = {
     { label: 'Live streaming available', icon: 'stream' }  ],
   ctas: [
     { label: 'Call for Papers', href: '#cfp', primary: true },
+    
     { label: 'Invited Speakers', href: '#speakers', primary: false },
   ],
 };
@@ -134,7 +135,7 @@ export const callForPapers = {
   ],
   // TODO: Update these dates when finalized
   keyDates: [
-    { event: 'Submission Deadline', date: 'TBA' },
+    { event: 'Submission Deadline', date: 'July 6th' },
     { event: 'Author Notification', date: 'TBA' },
     { event: 'Camera-Ready Deadline', date: 'TBA' },
     { event: 'Workshop Date', date: 'TBA' },
@@ -229,31 +230,29 @@ export const schedule = {
   lead: 'A full-day program designed to balance deep technical talks with open discussion and community engagement.',
   format: [
     { type: 'Opening Remarks', description: 'Welcome and framing of the workshop\'s scientific goals.' },
-    { type: 'Invited Talks', description: 'Four invited presentations distributed across the morning and afternoon program.' },
-    { type: 'Oral Presentations', description: 'Two dedicated oral presentation blocks featuring selected workshop papers.' },
-    { type: 'Panel Discussion', description: 'A discussion session centered on open questions in scientific understanding of foundation models.' },
-    { type: 'Poster Session', description: 'A dedicated poster session for accepted papers and community discussion.' },
-    { type: 'Breaks & Lunch', description: 'Built-in time for informal conversations and continued technical exchange.' },
-    { type: 'Closing Remarks', description: 'A short wrap-up to close the workshop day.' },
+    { type: 'Invited Talks', description: 'In-depth invited presentations on scaling, emergence, post-training, and alignment.' },
+    { type: 'Poster Sessions', description: 'Two dedicated poster sessions during coffee breaks to discuss accepted work.' },
+    { type: 'Panel Discussions', description: 'Two thematic panels on predictive understanding and controlled studies.' },
+    { type: 'Contributed Spotlights', description: 'Top submissions presented as contributed spotlight talks.' },
+    { type: 'Closing Remarks & Awards', description: 'Summary, best paper awards, and next steps for the community.' },
   ],
   panelThemes: [
     'Are scaling laws enough for predictive understanding?',
     'Controlled Studies: science or engineering tool?',
   ],
   timeline: [
-    { time: '08:50 - 09:00', event: 'Opening Remarks' },
-    { time: '09:00 - 09:40', event: 'Invited Talk' },
-    { time: '09:40 - 10:20', event: 'Invited Talk' },
-    { time: '10:20 - 10:30', event: 'Coffee Break' },
-    { time: '10:30 - 11:15', event: 'Oral Presentations' },
-    { time: '11:15 - 12:00', event: 'Panel Discussion' },
-    { time: '12:00 - 13:30', event: 'Lunch Break' },
-    { time: '13:30 - 14:45', event: 'Poster Session' },
-    { time: '14:45 - 15:25', event: 'Invited Talk' },
-    { time: '15:25 - 16:05', event: 'Invited Talk' },
-    { time: '16:05 - 16:15', event: 'Break' },
-    { time: '16:15 - 17:00', event: 'Oral Presentations' },
-    { time: '17:00 - 17:05', event: 'Closing Remarks' },
+    { time: '08:45 - 09:00', event: 'Opening Remarks', duration: '15 min' },
+    { time: '09:00 - 09:40', event: 'Invited Talk: Jikai Jin (Observational Studies & Prescriptive Scaling)', duration: '40 min' },
+    { time: '09:40 - 10:20', event: 'Invited Talk: Surya Ganguli (Physics of ML and Capability Emergence)', duration: '40 min' },
+    { time: '10:20 - 11:00', event: 'Coffee Break & Poster Session I', duration: '40 min' },
+    { time: '11:00 - 12:00', event: 'Panel 1: Are scaling laws enough for predictive understanding?', duration: '60 min' },
+    { time: '12:00 - 13:00', event: 'Contributed Spotlight Talks (Top 4 Submissions)', duration: '60 min' },
+    { time: '13:00 - 14:00', event: 'Lunch Break', duration: '60 min' },
+    { time: '14:00 - 14:40', event: 'Invited Talk: Ludwig Schmidt (Post-training Data & TerminalBench)', duration: '40 min' },
+    { time: '14:40 - 15:20', event: 'Invited Talk: Valentina Pyatkin (Post-Training & Verifiable Alignment)', duration: '40 min' },
+    { time: '15:20 - 16:00', event: 'Coffee Break & Poster Session II', duration: '40 min' },
+    { time: '16:00 - 17:00', event: 'Panel 2: Controlled Studies: science or engineering tool?', duration: '60 min' },
+    { time: '17:00 - 17:30', event: 'Closing Remarks and Awards', duration: '30 min' },
   ],
 };
 
