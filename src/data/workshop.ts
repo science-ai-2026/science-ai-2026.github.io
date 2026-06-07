@@ -135,10 +135,10 @@ export const callForPapers = {
   ],
   // TODO: Update these dates when finalized
   keyDates: [
-    { event: 'Submission Deadline', date: 'July 6th' },
-    { event: 'Author Notification', date: 'TBA' },
+    { event: 'Submission Deadline', date: 'June 23, 2026' },
+    { event: 'Author Notification', date: 'July 24, 2026' },
     { event: 'Camera-Ready Deadline', date: 'TBA' },
-    { event: 'Workshop Date', date: 'TBA' },
+    { event: 'Workshop Date', date: 'October 9, 2026' },
   ],
   submissionUrl: '#', // TODO: Replace with OpenReview submission link
   guidelinesUrl: '#', // TODO: Replace with submission guidelines link
