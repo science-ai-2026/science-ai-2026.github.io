@@ -21,7 +21,15 @@ export default function Organizers() {
           {organizers.list.map((org) => (
             <div key={org.name} className="text-center group">
               <div className="flex justify-center mb-3">
-                <InitialsAvatar initials={org.initials} />
+                {org.imageUrl ? (
+                  <img
+                    src={org.imageUrl}
+                    alt={org.name}
+                    className="w-20 h-20 object-cover"
+                  />
+                ) : (
+                  <InitialsAvatar initials={org.initials} />
+                )}
               </div>
               <h3 className="text-sm font-semibold text-neutral-900">
                 {org.name}

@@ -166,6 +166,7 @@ export const speakers = {
       imageUrl: null,
       initials: 'LS',
     },
+    /*
     {
       name: 'Saining Xie',
       affiliation: '', // TODO: Add affiliation
@@ -174,6 +175,7 @@ export const speakers = {
       imageUrl: null,
       initials: 'SX',
     },
+    */
     {
       name: 'Surya Ganguli',
       affiliation: '', // TODO: Add affiliation
@@ -198,6 +200,7 @@ export const speakers = {
       imageUrl: null,
       initials: 'ZL',
     },
+    /*
     {
       name: 'Hector Liu',
       affiliation: '', // TODO: Add affiliation
@@ -206,6 +209,7 @@ export const speakers = {
       imageUrl: null,
       initials: 'HL',
     },
+    */
     {
       name: 'Valentina Pyatkin',
       affiliation: '', // TODO: Add affiliation
@@ -261,14 +265,14 @@ export const organizers = {
   lead: 'The workshop is organized by a team of researchers spanning theory, empirical machine learning, interpretability, and evaluation methodology.',
   // TODO: Update affiliations and websites for each organizer
   list: [
-    { name: 'Hanlin Zhang', affiliation: '', website: '#', initials: 'HZ' },
-    { name: 'Natalie Abreu', affiliation: '', website: '#', initials: 'NA' },
-    { name: 'Yizhou Liu', affiliation: '', website: '#', initials: 'YL' },
-    { name: 'Yizhong Wang', affiliation: '', website: '#', initials: 'YW' },
-    { name: 'Sham Kakade', affiliation: '', website: '#', initials: 'SK' },
-    { name: 'Kaiyue Wen', affiliation: '', website: '#', initials: 'KW' },
-    { name: 'Sewon Min', affiliation: '', website: '#', initials: 'SM' },
-    { name: 'Alex Damian', affiliation: '', website: '#', initials: 'AD' },
+    { name: 'Hanlin Zhang', affiliation: '', website: '#', imageUrl: '/organizers/hanlin_profile.jpg', initials: 'HZ' },
+    { name: 'Natalie Abreu', affiliation: '', website: '#', imageUrl: '/organizers/natalie_profile.JPG', initials: 'NA' },
+    { name: 'Yizhou Liu', affiliation: '', website: '#', imageUrl: '/organizers/yizhou_profile.webp', initials: 'YL' },
+    { name: 'Yizhong Wang', affiliation: '', website: '#', imageUrl: '/organizers/yizhong_profile.jpg', initials: 'YW' },
+    { name: 'Sham Kakade', affiliation: '', website: '#', imageUrl: '/organizers/sham_profile.jpg', initials: 'SK' },
+    { name: 'Kaiyue Wen', affiliation: '', website: '#', imageUrl: '/organizers/kaiyue_profile.jpg', initials: 'KW' },
+    { name: 'Sewon Min', affiliation: '', website: '#', imageUrl: '/organizers/sewon_profile.jpg', initials: 'SM' },
+    { name: 'Alex Damian', affiliation: '', website: '#', imageUrl: '/organizers/damian_profile.jpg', initials: 'AD' },
   ],
 };
 
