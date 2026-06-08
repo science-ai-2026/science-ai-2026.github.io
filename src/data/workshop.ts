@@ -66,43 +66,40 @@ export const about = {
 
 export const topics = {
   heading: 'Topics',
-  lead: 'The workshop is organized around three major pillars, each addressing a critical dimension of scientific understanding.',
-  note: 'We especially encourage submissions that bridge theory and empirical observation — work that uses formal tools to explain experimental findings, or controlled experiments designed to test theoretical predictions.',
+  lead: 'The workshop centers on advancing the scientific understanding of foundation models by bridging empirical observations with theoretical grounding.',
+  note: 'We particularly encourage work that bridges theory and empirical observation, ensuring that theoretical claims are accompanied by rigorous experimental validation.',
   pillars: [
     {
-      title: 'Theory',
+      title: 'Training Dynamics, Data, and Optimization',
       color: 'blue',
       icon: 'theory',
       subtopics: [
-        'Scaling laws and breakdown regimes',
-        'Emergence and phase transitions in capability',
-        'Implicit bias of optimization and representation geometry',
-        'Information-theoretic perspectives on in-context learning',
-        'Expressivity vs. compression trade-offs',
+        'Data curation, high-quality data mixtures, and the role of open models in driving capabilities',
+        'Optimization at scale, including width and depth scaling across training regimes',
+        'How optimization choices affect quantization, post-training, and downstream model behavior',
+        'Theoretical and empirical limits of scaling laws, including domain-specific scaling and breakdown regimes',
       ],
     },
     {
-      title: 'Controlled Studies & Empirical Understanding',
+      title: 'Post-Training, Reward Modeling, and Alignment',
       color: 'indigo',
       icon: 'empirical',
       subtopics: [
-        'Representation collapse, specialization, and disentanglement',
-        'Emergent reasoning behavior in LLMs',
-        'Probing and causal interventions',
-        'Robustness and systematic failure modes',
-        'Training dynamics and representation evolution',
+        'RL, self-improvement, and how pre-training enables effective post-training',
+        'Reward systems, reward model overoptimization, and utility engineering for value systems',
+        'Scaling and designing RL environments for evaluating agentic behavior',
+        'High-quality post-training datasets, instruction tuning data, and reward models',
       ],
     },
     {
-      title: 'Evaluation & Scientific Methodology',
+      title: 'Evaluation Science and Reliability',
       color: 'violet',
       icon: 'evaluation',
       subtopics: [
-        'Designing principled evaluation benchmarks',
-        'Capability measurement vs. superficial performance',
-        'Reproducibility and experimental design for large-model studies',
-        'Predictive evaluation for safety and alignment',
-        'Stress testing and adversarial robustness',
+        'Measurement methodology and fluid benchmarking for rapidly changing language models',
+        'Capability measurement, including latent capabilities, emergence, and in-context learning',
+        'Reproducibility, determinism in inference, and reliable conclusions from imperfect synthetic data',
+        'Scalable and automated analysis of model behavior and population-level phenomena',
       ],
     },
   ],
@@ -110,9 +107,9 @@ export const topics = {
 
 export const callForPapers = {
   heading: 'Call for Papers',
-  lead: 'We invite original contributions that advance the scientific understanding of foundation models — spanning theory, controlled empirical studies, and rigorous evaluation methodology.',
+  lead: 'We invite original contributions that advance the scientific understanding of foundation models across training dynamics, post-training and alignment, and evaluation science.',
   description:
-    'We welcome work that goes beyond benchmark improvements to offer mechanistic insight, theoretical grounding, or methodological innovation. Negative results, careful reproductions, and position papers that articulate open problems are valued.',
+    'We welcome work that connects empirical observations with theoretical grounding, offers mechanistic insight, or develops rigorous methodology for studying foundation models. Negative results, careful reproductions, and position papers that articulate open problems are valued.',
   categories: [
     {
       title: 'Full Papers',
@@ -265,7 +262,7 @@ export const organizers = {
   lead: 'The workshop is organized by a team of researchers spanning theory, empirical machine learning, interpretability, and evaluation methodology.',
   // TODO: Update affiliations and websites for each organizer
   list: [
-    { name: 'Hanlin Zhang', affiliation: '', website: '#', imageUrl: '/organizers/hanlin_profile.jpg', initials: 'HZ' },
+    { name: 'Hanlin Zhang', affiliation: '', website: '#', imageUrl: '/organizers/hanlin_profile.png', initials: 'HZ' },
     { name: 'Natalie Abreu', affiliation: '', website: '#', imageUrl: '/organizers/natalie_profile.JPG', initials: 'NA' },
     { name: 'Yizhou Liu', affiliation: '', website: '#', imageUrl: '/organizers/yizhou_profile.webp', initials: 'YL' },
     { name: 'Yizhong Wang', affiliation: '', website: '#', imageUrl: '/organizers/yizhong_profile.jpg', initials: 'YW' },
