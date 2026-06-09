@@ -21,6 +21,12 @@ export default function Footer() {
             <p className="text-sm text-neutral-400 mt-1">
               {footer.conference}
             </p>
+            <a
+              href={`mailto:${footer.email}`}
+              className="inline-block text-sm text-neutral-300 hover:text-white hover:underline mt-3"
+            >
+              {footer.email}
+            </a>
           </div>
         </div>
 
