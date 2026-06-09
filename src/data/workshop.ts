@@ -149,7 +149,7 @@ export const speakers = {
     {
       name: 'Jikai Jin',
       affiliation: 'PhD student, Stanford University',
-      bio: 'Jikai Jin\'s research explores theoretical foundations and empirical phenomena in large neural networks, including representation learning and scaling behavior, contributing to our understanding of how training dynamics shape emergent capabilities.',
+      bio: 'Jikai Jin\'s research focuses on making data-driven algorithms more principled and reliable, spanning scaling laws, causal representation learning, and algorithmic decision-making. His work on prescriptive scaling laws reveals how language model capabilities emerge and evolve, offering predictive in addition to purely descriptive understanding of scaling phenomena.',
       website: 'https://jkjin.com/',
       imageUrl: '/speakers/jikai_profile.jpg',
       initials: 'JJ',
