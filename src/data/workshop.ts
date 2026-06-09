@@ -155,36 +155,12 @@ export const speakers = {
       initials: 'JJ',
     },
     {
-      name: 'Ludwig Schmidt',
-      affiliation: 'Assistant Professor, Stanford University & Anthropic',
-      bio: 'Ludwig Schmidt is known for work on robustness, dataset quality, and evaluation methodology, highlighting the importance of rigorous measurement and systematic evaluation in understanding large-scale models.',
-      website: '#', // TODO: Replace with actual website
-      imageUrl: '/speakers/ludwig_profile.jpg',
-      initials: 'LS',
-    },
-    {
-      name: 'Saining Xie',
-      affiliation: 'Assistant Professor, New York University & AMI Labs',
-      bio: 'Saining Xie is known for foundational work in visual and multi-modal representation learning, including generative architectures like DiT. He will provide insights into the internal mechanisms, architecture tradeoffs, and scaling behaviors of multi-modal foundation models.',
-      website: '#',
-      imageUrl: '/speakers/saining.jpg',
-      initials: 'SX',
-    },
-    {
       name: 'Surya Ganguli',
       affiliation: 'Associate Professor, Stanford University',
       bio: 'Surya Ganguli leverages statistical physics to study the training dynamics, generalization, and scaling laws of large neural networks, providing a first-principles perspective on how complex capabilities emerge in large-scale systems.',
       website: '#', // TODO: Replace with actual website
       imageUrl: '/speakers/surya_profile.jpg',
       initials: 'SG',
-    },
-    {
-      name: 'Andrew Gordon Wilson',
-      affiliation: 'Professor, New York University',
-      bio: 'Andrew Gordon Wilson focuses on understanding why overparameterized models generalize effectively. His work explores the implicit biases of optimization procedures, probabilistic modeling, and the geometry of learned representations.',
-      website: '#', // TODO: Replace with actual website
-      imageUrl: '/speakers/andrew_profile.jpeg',
-      initials: 'AGW',
     },
     {
       name: 'Zhiyuan Li',
@@ -213,12 +189,36 @@ export const speakers = {
       initials: 'VP',
     },
     {
+      name: 'Ludwig Schmidt',
+      affiliation: 'Assistant Professor, Stanford University & Anthropic',
+      bio: 'Ludwig Schmidt is known for work on robustness, dataset quality, and evaluation methodology, highlighting the importance of rigorous measurement and systematic evaluation in understanding large-scale models.',
+      website: '#', // TODO: Replace with actual website
+      imageUrl: '/speakers/ludwig_profile.jpg',
+      initials: 'LS',
+    },
+    {
       name: 'Mohammad Shoeybi',
       affiliation: 'VP of Applied Deep Learning Research, NVIDIA',
       bio: 'Mohammad Shoeybi is a pioneer in large-scale model optimization and a driving force behind Megatron-LM. His work addresses the critical algorithmic and hardware challenges of distributed training, enabling the highly efficient scaling of foundation models to hundreds of billions of parameters through advanced model parallelism.',
       website: '#', // TODO: Replace with actual website
       imageUrl: '/speakers/mohammed_profile.jpg',
       initials: 'MS',
+    },
+    {
+      name: 'Andrew Gordon Wilson',
+      affiliation: 'Professor, New York University',
+      bio: 'Andrew Gordon Wilson focuses on understanding why overparameterized models generalize effectively. His work explores the implicit biases of optimization procedures, probabilistic modeling, and the geometry of learned representations.',
+      website: '#', // TODO: Replace with actual website
+      imageUrl: '/speakers/andrew_profile.jpeg',
+      initials: 'AGW',
+    },
+    {
+      name: 'Saining Xie',
+      affiliation: 'Assistant Professor, New York University & AMI Labs',
+      bio: 'Saining Xie is known for foundational work in visual and multi-modal representation learning, including generative architectures like DiT. He will provide insights into the internal mechanisms, architecture tradeoffs, and scaling behaviors of multi-modal foundation models.',
+      website: '#',
+      imageUrl: '/speakers/saining.jpg',
+      initials: 'SX',
     },
   ],
 };
