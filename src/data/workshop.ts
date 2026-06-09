@@ -252,7 +252,7 @@ export const schedule = {
     { time: '15:30 - 16:00', event: 'Invited Talk: Jikai Jin (Observational Studies & Prescriptive Scaling)', duration: '30 min' },
     { time: '16:00 - 16:30', event: 'Invited Talk: Saining Xie (Vision Generative Modeling)', duration: '30 min' },
     { time: '16:30 - 17:15', event: 'Panel Discussion: Data quality vs. quantity: do we have a science of data curation yet? / Controlled Studies: science or engineering tool?', duration: '45 min' },
-    { time: '17:15 - 18:00', event: 'Poster Session II', duration: '45 min' },
+    { time: '17:15 - 18:00', event: 'Poster Session II & Closing Remarks', duration: '45 min' },
   ],
 };
 
