@@ -10,7 +10,7 @@ export const siteConfig = {
   conference: 'COLM 2026',
   description:
     'A workshop on building rigorous scientific understanding of foundation models — from scaling laws and emergent capabilities to principled evaluation and mechanistic explanation.',
-  contactEmail: 'sci-fm-workshop@googlegroups.com', // TODO: Replace with actual email
+  contactEmail: 'scienceai26@gmail.com',
   openReviewUrl: 'https://openreview.net/group?id=colmweb.org/COLM/2026/Workshop/Sci-FM',
   conferenceUrl: '#', // TODO: Replace with actual COLM 2026 URL
   socialLinks: {
