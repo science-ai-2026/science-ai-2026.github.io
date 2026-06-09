@@ -22,23 +22,6 @@ export default function Schedule() {
               ))}
             </div>
 
-            {/* Panel themes */}
-            <div className="mt-8">
-              <h3 className="text-sm font-semibold text-neutral-500 uppercase tracking-wider mb-4">
-                Panel Discussion Themes
-              </h3>
-              <ul className="space-y-2">
-                {schedule.panelThemes.map((theme) => (
-                  <li
-                    key={theme}
-                    className="flex items-start gap-2.5 text-sm text-neutral-700 italic"
-                  >
-                    <span className="text-neutral-500 mt-0.5 flex-shrink-0">&ldquo;</span>
-                    {theme}&rdquo;
-                  </li>
-                ))}
-              </ul>
-            </div>
           </div>
 
           {/* Timeline */}

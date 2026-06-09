@@ -162,16 +162,14 @@ export const speakers = {
       imageUrl: '/speakers/ludwig_profile.jpg',
       initials: 'LS',
     },
-    /*
     {
       name: 'Saining Xie',
-      affiliation: '', // TODO: Add affiliation
-      bio: '', // TODO: Add bio
-      website: '#', // TODO: Replace with actual website
-      imageUrl: null,
+      affiliation: 'Assistant Professor, New York University & AMI Labs',
+      bio: 'Saining Xie is known for foundational work in visual and multi-modal representation learning, including generative architectures like DiT. He will provide insights into the internal mechanisms, architecture tradeoffs, and scaling behaviors of multi-modal foundation models.',
+      website: '#',
+      imageUrl: '/speakers/saining.jpg',
       initials: 'SX',
     },
-    */
     {
       name: 'Surya Ganguli',
       affiliation: 'Associate Professor, Stanford University',
@@ -236,10 +234,6 @@ export const schedule = {
     { type: 'Contributed Spotlights', description: 'Top submissions presented as contributed spotlight talks.' },
     { type: 'Closing Remarks & Awards', description: 'Summary, best paper awards, and next steps for the community.' },
   ],
-  panelThemes: [
-    'Data quality vs. quantity: do we have a science of data curation yet?',
-    'Controlled Studies: science or engineering tool?',
-  ],
   timeline: [
     // Morning Session
     { time: '08:45 - 09:00', event: 'Opening Remarks', duration: '15 min' },
@@ -247,7 +241,7 @@ export const schedule = {
     { time: '09:30 - 10:00', event: 'Invited Talk: Surya Ganguli (Physics of ML and Capability Emergence)', duration: '30 min' },
     { time: '10:00 - 10:30', event: 'Morning Break', duration: '30 min' },
     { time: '10:30 - 11:00', event: 'Invited Talk: Andrew Gordon Wilson (Generalization & Representation Geometry)', duration: '30 min' },
-    { time: '11:00 - 11:30', event: 'Invited Talk: Zhiyuan Li (Implicit Bias of Optimization)', duration: '30 min' },
+    { time: '11:00 - 11:30', event: 'Invited Talk: Zhiyuan Li (Understanding of Optimization and Post-training)', duration: '30 min' },
     { time: '11:30 - 12:00', event: 'Contributed Talks', duration: '30 min' },
     { time: '12:00 - 13:30', event: 'Lunch Break & Poster Session I', duration: '90 min' },
     // Afternoon Session
@@ -256,8 +250,8 @@ export const schedule = {
     { time: '14:30 - 15:00', event: 'Contributed Talks', duration: '30 min' },
     { time: '15:00 - 15:30', event: 'Afternoon Break', duration: '30 min' },
     { time: '15:30 - 16:00', event: 'Invited Talk: Jikai Jin (Observational Studies & Prescriptive Scaling)', duration: '30 min' },
-    { time: '16:00 - 16:30', event: 'Invited Talk: (TBA)', duration: '30 min' },
-    { time: '16:30 - 17:15', event: 'Panel Discussion', duration: '45 min' },
+    { time: '16:00 - 16:30', event: 'Invited Talk: Saining Xie (Vision Generative Modeling)', duration: '30 min' },
+    { time: '16:30 - 17:15', event: 'Panel Discussion: Data quality vs. quantity: do we have a science of data curation yet? / Controlled Studies: science or engineering tool?', duration: '45 min' },
     { time: '17:15 - 18:00', event: 'Poster Session II', duration: '45 min' },
   ],
 };
