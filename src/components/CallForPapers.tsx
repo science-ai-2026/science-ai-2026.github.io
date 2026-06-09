@@ -55,6 +55,9 @@ export default function CallForPapers() {
               <a href={callForPapers.submissionUrl} className="btn-primary">
                 Submit via OpenReview
               </a>
+              <a href="mailto:scienceai26@gmail.com?subject=Interest%20in%20Serving%20as%20a%20Reviewer" className="btn-secondary">
+                Contact to Serve as a Reviewer
+              </a>
             </div>
           </div>
 
