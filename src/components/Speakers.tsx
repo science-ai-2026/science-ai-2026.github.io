@@ -2,7 +2,7 @@ import { speakers } from '@/data/workshop';
 
 function InitialsAvatar({ initials }: { initials: string }) {
   return (
-    <div className="w-full aspect-square bg-neutral-200 flex items-center justify-center">
+    <div className="w-full aspect-[4/3] bg-neutral-200 flex items-center justify-center">
       <span className="text-3xl font-semibold text-neutral-600">
         {initials}
       </span>
@@ -19,13 +19,13 @@ export default function Speakers() {
 
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {speakers.list.map((speaker) => (
-            <div key={speaker.name} className="card group">
-              <div className="mb-4 overflow-hidden">
+            <div key={speaker.name} className="card group !p-4">
+              <div className="mb-3 overflow-hidden rounded">
                 {speaker.imageUrl ? (
                   <img
                     src={speaker.imageUrl}
                     alt={speaker.name}
-                    className="w-full aspect-square object-cover"
+                    className="w-full aspect-[4/3] object-cover"
                   />
                 ) : (
                   <InitialsAvatar initials={speaker.initials} />

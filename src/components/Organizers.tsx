@@ -2,7 +2,7 @@ import { organizers } from '@/data/workshop';
 
 function InitialsAvatar({ initials }: { initials: string }) {
   return (
-    <div className="w-20 h-20 bg-neutral-200 flex items-center justify-center">
+    <div className="w-24 h-24 rounded-full bg-neutral-200 flex items-center justify-center">
       <span className="text-lg font-semibold text-neutral-600">
         {initials}
       </span>
@@ -19,23 +19,23 @@ export default function Organizers() {
 
         <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8">
           {organizers.list.map((org) => (
-            <div key={org.name} className="text-center group">
+            <div key={org.name} className="text-center group rounded-lg border border-neutral-200 bg-white p-4">
               <div className="flex justify-center mb-3">
                 {org.imageUrl ? (
                   <img
                     src={org.imageUrl}
                     alt={org.name}
-                    className="w-20 h-20 object-cover"
+                    className="w-24 h-24 object-cover rounded-full"
                   />
                 ) : (
                   <InitialsAvatar initials={org.initials} />
                 )}
               </div>
-              <h3 className="text-sm font-semibold text-neutral-900">
+              <h3 className="text-base font-semibold text-neutral-900">
                 {org.name}
               </h3>
               {org.affiliation && (
-                <p className="text-xs text-neutral-500 mt-0.5">
+                <p className="text-xs text-neutral-500 mt-1">
                   {org.affiliation}
                 </p>
               )}
