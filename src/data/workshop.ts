@@ -11,12 +11,12 @@ export const siteConfig = {
   description:
     'A workshop on building rigorous scientific understanding of foundation models — from scaling laws and emergent capabilities to principled evaluation and mechanistic explanation.',
   contactEmail: 'sci-fm-workshop@googlegroups.com', // TODO: Replace with actual email
-  openReviewUrl: '#', // TODO: Replace with actual OpenReview URL
+  openReviewUrl: 'https://openreview.net/group?id=colmweb.org/COLM/2026/Workshop/Sci-FM',
   conferenceUrl: '#', // TODO: Replace with actual COLM 2026 URL
   socialLinks: {
     twitter: '#', // TODO: Replace
     github: '#', // TODO: Replace
-    openReview: '#', // TODO: Replace
+    openReview: 'https://openreview.net/group?id=colmweb.org/COLM/2026/Workshop/Sci-FM',
   },
 };
 
@@ -137,30 +137,30 @@ export const callForPapers = {
     { event: 'Camera-Ready Deadline', date: 'TBA' },
     { event: 'Workshop Date', date: 'October 9, 2026' },
   ],
-  submissionUrl: '#', // TODO: Replace with OpenReview submission link
+  submissionUrl: siteConfig.openReviewUrl,
   guidelinesUrl: '#', // TODO: Replace with submission guidelines link
 };
 
 export const speakers = {
   heading: 'Invited Speakers',
   lead: 'Our invited speakers bring deep expertise spanning theoretical foundations, empirical methodology, and large-scale model evaluation.',
-  additionalNote: 'Additional invited speakers to be announced. Check back for updates.',
+  additionalNote: '',
   // TODO: Add more speakers as they are confirmed
   list: [
     {
       name: 'Jikai Jin',
-      affiliation: '', // TODO: Add affiliation
-      bio: 'Research on theoretical foundations and empirical phenomena in large neural networks, including representation learning, scaling behavior, training dynamics, and emergent capabilities.',
+      affiliation: 'PhD student, Stanford University',
+      bio: 'Jikai Jin\'s research explores theoretical foundations and empirical phenomena in large neural networks, including representation learning and scaling behavior, contributing to our understanding of how training dynamics shape emergent capabilities.',
       website: '#', // TODO: Replace with actual website
-      imageUrl: null,
+      imageUrl: '/speakers/jikai_profile.jpg',
       initials: 'JJ',
     },
     {
       name: 'Ludwig Schmidt',
-      affiliation: '', // TODO: Add affiliation
-      bio: 'Research on robustness, dataset quality, evaluation methodology, and rigorous measurement — developing systematic approaches to evaluating and understanding large-scale models.',
+      affiliation: 'Professor, Stanford University & Anthropic',
+      bio: 'Ludwig Schmidt is known for work on robustness, dataset quality, and evaluation methodology, highlighting the importance of rigorous measurement and systematic evaluation in understanding large-scale models.',
       website: '#', // TODO: Replace with actual website
-      imageUrl: null,
+      imageUrl: '/speakers/ludwig_profile.jpg',
       initials: 'LS',
     },
     /*
@@ -175,26 +175,26 @@ export const speakers = {
     */
     {
       name: 'Surya Ganguli',
-      affiliation: '', // TODO: Add affiliation
-      bio: '', // TODO: Add bio
+      affiliation: 'Associate Professor, Stanford University',
+      bio: 'Surya Ganguli leverages statistical physics to study the training dynamics, generalization, and scaling laws of large neural networks, providing a first-principles perspective on how complex capabilities emerge in large-scale systems.',
       website: '#', // TODO: Replace with actual website
-      imageUrl: null,
+      imageUrl: '/speakers/surya_profile.jpg',
       initials: 'SG',
     },
     {
       name: 'Andrew Gordon Wilson',
-      affiliation: '', // TODO: Add affiliation
-      bio: '', // TODO: Add bio
+      affiliation: 'Professor, New York University',
+      bio: 'Andrew Gordon Wilson focuses on understanding why overparameterized models generalize effectively. His work explores the implicit biases of optimization procedures, probabilistic modeling, and the geometry of learned representations.',
       website: '#', // TODO: Replace with actual website
-      imageUrl: null,
+      imageUrl: '/speakers/andrew_profile.jpeg',
       initials: 'AGW',
     },
     {
       name: 'Zhiyuan Li',
-      affiliation: '', // TODO: Add affiliation
-      bio: '', // TODO: Add bio
+      affiliation: 'Assistant Professor, Toyota Technological Institute at Chicago',
+      bio: 'Zhiyuan Li works on the theoretical foundations of deep learning, particularly the implicit bias of optimization algorithms. His research helps demystify how specific training design choices fundamentally shape the trajectory and capabilities of foundation models.',
       website: '#', // TODO: Replace with actual website
-      imageUrl: null,
+      imageUrl: '/speakers/zhiyuan_profile.webp',
       initials: 'ZL',
     },
     /*
@@ -209,18 +209,18 @@ export const speakers = {
     */
     {
       name: 'Valentina Pyatkin',
-      affiliation: '', // TODO: Add affiliation
-      bio: '', // TODO: Add bio
+      affiliation: 'Postdoctoral Researcher, Allen Institute for AI / University of Washington',
+      bio: 'Valentina Pyatkin develops robust post-training pipelines for instruction following, preference optimization, and alignment. As a core contributor to open-science projects like OLMo and TULU, her research tackles contextual robustness, reward modeling, and the systematic evaluation of generative AI.',
       website: '#', // TODO: Replace with actual website
-      imageUrl: null,
+      imageUrl: '/speakers/valentina_profile.jpg',
       initials: 'VP',
     },
     {
       name: 'Mohammad Shoeybi',
-      affiliation: '', // TODO: Add affiliation
-      bio: '', // TODO: Add bio
+      affiliation: 'VP of Applied Deep Learning Research, NVIDIA',
+      bio: 'Mohammad Shoeybi is a pioneer in large-scale model optimization and a driving force behind Megatron-LM. His work addresses the critical algorithmic and hardware challenges of distributed training, enabling the highly efficient scaling of foundation models to hundreds of billions of parameters through advanced model parallelism.',
       website: '#', // TODO: Replace with actual website
-      imageUrl: null,
+      imageUrl: '/speakers/mohammed_profile.jpg',
       initials: 'MS',
     },
   ],
@@ -259,7 +259,7 @@ export const schedule = {
 
 export const organizers = {
   heading: 'Organizers',
-  lead: 'The workshop is organized by a team of researchers spanning theory, empirical machine learning, interpretability, and evaluation methodology.',
+  lead: '',
   // TODO: Update affiliations and websites for each organizer
   list: [
     { name: 'Hanlin Zhang', affiliation: '', website: '#', imageUrl: '/organizers/hanlin_profile.png', initials: 'HZ' },

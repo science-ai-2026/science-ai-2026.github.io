@@ -55,9 +55,6 @@ export default function CallForPapers() {
               <a href={callForPapers.submissionUrl} className="btn-primary">
                 Submit via OpenReview
               </a>
-              <a href={callForPapers.guidelinesUrl} className="btn-secondary">
-                Submission Guidelines
-              </a>
             </div>
           </div>
 
