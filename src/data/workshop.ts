@@ -28,7 +28,6 @@ export const navigation = [
   { label: 'Speakers', href: '#speakers' },
   { label: 'Schedule', href: '#schedule' },
   { label: 'Organizers', href: '#organizers' },
-  { label: 'FAQ', href: '#faq' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -308,11 +307,6 @@ export const faq = {
       question: 'Will talks be recorded?',
       answer:
         'Yes. We plan to record all invited talks and panel discussions and make them publicly available after the workshop.',
-    },
-    {
-      question: 'How do I receive updates about the workshop?',
-      answer:
-        'You can sign up for updates via our contact form, follow us on social media, or join our community forum. Key announcements will also be posted on the workshop website.',
     },
   ],
 };
