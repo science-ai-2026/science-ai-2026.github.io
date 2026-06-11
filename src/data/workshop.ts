@@ -159,7 +159,7 @@ export const speakers = {
     {
       name: 'Surya Ganguli',
       affiliation: 'Associate Professor, Stanford University',
-      bio: 'Surya Ganguli leverages statistical physics to study the training dynamics, generalization, and scaling laws of large neural networks. His works, including Exact Solutions to the Nonlinear Dynamics of Learning in Deep Linear Neural Networks and Deriving Neural Scaling Laws from the Statistics of Natural Language, provide a first-principles perspective on how complex capabilities emerge in large-scale systems.',
+      bio: 'Surya Ganguli leverages statistical physics to study the training dynamics, generalization, and scaling laws of large neural networks. His works, including Diffusion Models, Exact Solutions to the Nonlinear Dynamics of Learning in Deep Linear Neural Networks and Deriving Neural Scaling Laws from the Statistics of Natural Language, provide a first-principles perspective on how complex capabilities emerge in large-scale systems.',
       website: 'https://ganguli-gang.stanford.edu/surya.html',
       imageUrl: '/speakers/surya_profile.jpg',
       initials: 'SG',
