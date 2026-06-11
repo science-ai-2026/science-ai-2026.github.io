@@ -175,7 +175,7 @@ export const speakers = {
       affiliation: 'Director, MBZUAI Institute of Foundation Models Silicon Valley Lab',
       bio: 'Hector (Zhengzhong) Liu leads large-scale language model training at MBZUAI. He is the driving force behind LLM360, an initiative for fully open-sourcing the entire LLM training process to foster transparency and reproducibility, and led the development of K2, a leading fully open-source 65B language model.',
       website: 'https://hunterhector.github.io/',
-      imageUrl: null,
+      imageUrl: '/speakers/hector_profile.png',
       initials: 'HL',
     },
     {
