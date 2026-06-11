@@ -128,6 +128,7 @@ export const callForPapers = {
     'Each submission receives at least two expert reviews.',
     'Top-scoring submissions will be selected for spotlight talks.',
     'All accepted papers will be presented as posters during the workshop.',
+    'All reviewers will be acknowledged on the workshop website after the review process concludes.',
   ],
   // TODO: Update these dates when finalized
   keyDates: [

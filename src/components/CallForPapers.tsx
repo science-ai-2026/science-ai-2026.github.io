@@ -39,14 +39,17 @@ export default function CallForPapers() {
                 Review Process
               </h3>
               <ul className="space-y-2">
-                {callForPapers.reviewProcess.map((item, i) => (
-                  <li key={i} className="flex items-start gap-2.5 text-sm text-neutral-700">
-                    <svg className="w-4 h-4 text-neutral-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
-                    </svg>
-                    {item}
-                  </li>
-                ))}
+                {callForPapers.reviewProcess.map((item, i) => {
+                  const isLast = i === callForPapers.reviewProcess.length - 1;
+                  return (
+                    <li key={i} className={`flex items-start gap-2.5 text-sm ${isLast ? 'font-semibold' : 'text-neutral-700'}`} style={isLast ? { color: '#4361EE' } : undefined}>
+                      <svg className={`w-4 h-4 mt-0.5 flex-shrink-0 ${isLast ? '' : 'text-neutral-600'}`} fill="currentColor" viewBox="0 0 20 20" style={isLast ? { color: '#4361EE' } : undefined}>
+                        <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
+                      </svg>
+                      {item}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 
