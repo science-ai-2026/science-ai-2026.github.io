@@ -151,7 +151,7 @@ export const speakers = {
     {
       name: 'Jikai Jin',
       affiliation: 'PhD student, Stanford University',
-      bio: 'Jikai Jin\'s research focuses on making data-driven algorithms more principled and reliable. His work on Observational Scaling Laws reveals how language model capabilities emerge and evolve, and his Hierarchical Component Analysis provides new tools for causal representation learning.',
+      bio: 'Jikai Jin\'s research focuses on making data-driven algorithms more principled and reliable. His work on Prescriptive Scaling Laws reveals how language model capabilities emerge and evolve, and his Hierarchical Component Analysis provides new tools for causal representation learning.',
       website: 'https://jkjin.com/',
       imageUrl: '/speakers/jikai_profile.jpg',
       initials: 'JJ',
