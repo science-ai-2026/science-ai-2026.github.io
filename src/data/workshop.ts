@@ -149,7 +149,7 @@ export const speakers = {
     {
       name: 'Jikai Jin',
       affiliation: 'PhD student, Stanford University',
-      bio: 'Jikai Jin\'s research focuses on making data-driven algorithms more principled and reliable, spanning scaling laws, causal representation learning, and algorithmic decision-making. His work on prescriptive scaling laws reveals how language model capabilities emerge and evolve, offering predictive in addition to purely descriptive understanding of scaling phenomena.',
+      bio: 'Jikai Jin\'s research focuses on making data-driven algorithms more principled and reliable. His work on Observational Scaling Laws reveals how language model capabilities emerge and evolve, and his Hierarchical Component Analysis provides new tools for causal representation learning.',
       website: 'https://jkjin.com/',
       imageUrl: '/speakers/jikai_profile.jpg',
       initials: 'JJ',
@@ -157,7 +157,7 @@ export const speakers = {
     {
       name: 'Surya Ganguli',
       affiliation: 'Associate Professor, Stanford University',
-      bio: 'Surya Ganguli leverages statistical physics to study the training dynamics, generalization, and scaling laws of large neural networks, providing a first-principles perspective on how complex capabilities emerge in large-scale systems.',
+      bio: 'Surya Ganguli leverages statistical physics to study the training dynamics, generalization, and scaling laws of large neural networks. His works, including Exact Solutions to the Nonlinear Dynamics of Learning in Deep Linear Neural Networks and Deriving Neural Scaling Laws from the Statistics of Natural Language, provide a first-principles perspective on how complex capabilities emerge in large-scale systems.',
       website: 'https://ganguli-gang.stanford.edu/surya.html',
       imageUrl: '/speakers/surya_profile.jpg',
       initials: 'SG',
@@ -165,25 +165,23 @@ export const speakers = {
     {
       name: 'Zhiyuan Li',
       affiliation: 'Assistant Professor, Toyota Technological Institute at Chicago',
-      bio: 'Zhiyuan Li works on the theoretical foundations of deep learning, particularly the implicit bias of optimization algorithms. His research helps demystify how specific training design choices fundamentally shape the trajectory and capabilities of foundation models.',
+      bio: 'Zhiyuan Li works on the theoretical foundations of deep learning, particularly the implicit bias of optimization algorithms. His works such as Explaining the Edge-of-Stability and What Happens after SGD Reaches Zero Loss help demystify how training design choices fundamentally shape the trajectory and capabilities of foundation models.',
       website: 'https://zhiyuanli.ttic.edu/',
       imageUrl: '/speakers/zhiyuan_profile.webp',
       initials: 'ZL',
     },
-    /*
     {
       name: 'Hector Liu',
-      affiliation: '', // TODO: Add affiliation
-      bio: '', // TODO: Add bio
-      website: '#', // TODO: Replace with actual website
+      affiliation: 'Director, MBZUAI Institute of Foundation Models Silicon Valley Lab',
+      bio: 'Hector (Zhengzhong) Liu leads large-scale language model training at MBZUAI. He is the driving force behind LLM360, an initiative for fully open-sourcing the entire LLM training process to foster transparency and reproducibility, and led the development of K2, a leading fully open-source 65B language model.',
+      website: 'https://hunterhector.github.io/',
       imageUrl: null,
       initials: 'HL',
     },
-    */
     {
       name: 'Valentina Pyatkin',
       affiliation: 'Postdoctoral Researcher, Allen Institute for AI / University of Washington',
-      bio: 'Valentina Pyatkin develops robust post-training pipelines for instruction following, preference optimization, and alignment. As a core contributor to open-science projects like OLMo and TULU, her research tackles contextual robustness, reward modeling, and the systematic evaluation of generative AI.',
+      bio: 'Valentina Pyatkin develops robust post-training pipelines for instruction following, preference optimization, and alignment. As a core contributor to OLMo and TULU 3, her research tackles contextual robustness, reward modeling, and the systematic evaluation of generative AI.',
       website: 'https://valentinapy.github.io/',
       imageUrl: '/speakers/valentina_profile.jpg',
       initials: 'VP',
@@ -191,7 +189,7 @@ export const speakers = {
     {
       name: 'Ludwig Schmidt',
       affiliation: 'Assistant Professor, Stanford University & Anthropic',
-      bio: 'Ludwig Schmidt is known for work on robustness, dataset quality, and evaluation methodology, highlighting the importance of rigorous measurement and systematic evaluation in understanding large-scale models.',
+      bio: 'Ludwig Schmidt is known for work on data curation, evaluation, and post-training. His projects such as DCLM, OpenThoughts, and TerminalBench highlight the importance of rigorous data pipelines, open reasoning datasets, and systematic evaluation in understanding large-scale models.',
       website: 'https://profiles.stanford.edu/ludwig-schmidt',
       imageUrl: '/speakers/ludwig_profile.jpg',
       initials: 'LS',
@@ -199,7 +197,7 @@ export const speakers = {
     {
       name: 'Mohammad Shoeybi',
       affiliation: 'VP of Applied Deep Learning Research, NVIDIA',
-      bio: 'Mohammad Shoeybi is a pioneer in large-scale model optimization and a driving force behind Megatron-LM. His work addresses the critical algorithmic and hardware challenges of distributed training, enabling the highly efficient scaling of foundation models to hundreds of billions of parameters through advanced model parallelism.',
+      bio: 'Mohammad Shoeybi is a pioneer in large-scale model optimization and the driving force behind Megatron-LM. His work addresses the critical algorithmic and hardware challenges of distributed training, enabling the efficient scaling of foundation models to hundreds of billions of parameters through advanced model parallelism.',
       website: 'https://scholar.google.com/citations?user=62ElavIAAAAJ&hl=en',
       imageUrl: '/speakers/mohammed_profile.jpg',
       initials: 'MS',
@@ -207,18 +205,10 @@ export const speakers = {
     {
       name: 'Andrew Gordon Wilson',
       affiliation: 'Professor, New York University',
-      bio: 'Andrew Gordon Wilson focuses on understanding why overparameterized models generalize effectively. His work explores the implicit biases of optimization procedures, probabilistic modeling, and the geometry of learned representations.',
+      bio: 'Andrew Gordon Wilson focuses on understanding why overparameterized models generalize effectively. His works on Bayesian Deep Learning and a Probabilistic Perspective of Generalization and Epiplexity explore the implicit biases of optimization procedures, probabilistic modeling, and the geometry of learned representations.',
       website: 'https://cims.nyu.edu/~andrewgw/',
       imageUrl: '/speakers/andrew_profile.jpeg',
       initials: 'AGW',
-    },
-    {
-      name: 'Saining Xie',
-      affiliation: 'Assistant Professor, New York University & AMI Labs',
-      bio: 'Saining Xie is known for foundational work in visual and multi-modal representation learning, including generative architectures like DiT. He will provide insights into the internal mechanisms, architecture tradeoffs, and scaling behaviors of multi-modal foundation models.',
-      website: 'https://www.sainingxie.com/',
-      imageUrl: '/speakers/saining.jpg',
-      initials: 'SX',
     },
   ],
 };
@@ -250,7 +240,7 @@ export const schedule = {
     { time: '14:30 - 15:00', event: 'Contributed Talks', duration: '30 min' },
     { time: '15:00 - 15:30', event: 'Afternoon Break', duration: '30 min' },
     { time: '15:30 - 16:00', event: 'Invited Talk: Jikai Jin (Observational Studies & Prescriptive Scaling)', duration: '30 min' },
-    { time: '16:00 - 16:30', event: 'Invited Talk: Saining Xie (Vision Generative Modeling)', duration: '30 min' },
+    { time: '16:00 - 16:30', event: 'Invited Talk: Hector Liu (Open-Source LLM Training & Transparency)', duration: '30 min' },
     { time: '16:30 - 17:15', event: 'Panel Discussion', duration: '45 min' },
     { time: '17:15 - 18:00', event: 'Poster Session II & Closing Remarks', duration: '45 min' },
   ],
