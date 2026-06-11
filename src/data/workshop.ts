@@ -109,8 +109,6 @@ export const callForPapers = {
   lead: 'We invite original contributions that advance the scientific understanding of foundation models across training dynamics, post-training and alignment, and evaluation science.',
   description:
     'We welcome work that connects empirical observations with theoretical grounding, offers mechanistic insight, or develops rigorous methodology for studying foundation models. Negative results, careful reproductions, and position papers that articulate open problems are valued.',
-  descriptionHighlight:
-    'We particularly encourage work that bridges theory and empirical observation, ensuring that theoretical claims are accompanied by rigorous experimental validation.',
   categories: [
     {
       title: 'Full Papers',

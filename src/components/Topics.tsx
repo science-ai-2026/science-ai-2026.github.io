@@ -82,7 +82,7 @@ export default function Topics() {
         </div>
 
         <div className="mt-10 bg-primary-50 border border-neutral-300 rounded p-6 text-center max-w-3xl mx-auto">
-          <p className="text-sm text-neutral-700 leading-relaxed italic">
+          <p className="text-sm leading-relaxed italic font-semibold" style={{ color: '#d56062' }}>
             {topics.note}
           </p>
         </div>

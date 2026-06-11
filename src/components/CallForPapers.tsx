@@ -12,14 +12,6 @@ export default function CallForPapers() {
           <div className="lg:col-span-2 space-y-8">
             <p className="text-neutral-600 leading-relaxed">
               {callForPapers.description}
-              {callForPapers.descriptionHighlight && (
-                <>
-                  {' '}
-                  <span className="font-semibold" style={{ color: '#d56062' }}>
-                    {callForPapers.descriptionHighlight}
-                  </span>
-                </>
-              )}
             </p>
 
             {/* Submission categories */}
