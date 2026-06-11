@@ -55,11 +55,11 @@ export const about = {
     'By bringing together researchers from theory, empirical ML, interpretability, optimization, evaluation, and scientific methodology, we aim to lay groundwork for a genuine science of foundation models — one that offers not just post-hoc explanations, but predictive understanding.',
   ],
   questions: [
-    'What principles govern the emergence of capabilities in large models?',
-    'How do representation geometry and training dynamics shape reasoning behavior?',
     'What are the limits of scaling laws — and what comes after them?',
-    'How can we build predictive theories of generalization in overparameterized regimes?',
-    'What scientific tools are needed to study foundation models as complex adaptive systems?',
+    'Can we predict when scaling will fail, and what determines the breakdown regime of scaling laws?',
+    'When does data curation matter more than scale, and can we formalize the crossover point?',
+    'What structural information in pre-training is actually used by post-training — and how much is redundant?',
+    'What principles govern the growth of capabilities in large models?',
   ],
 };
 
@@ -151,7 +151,7 @@ export const speakers = {
     {
       name: 'Jikai Jin',
       affiliation: 'PhD student, Stanford University',
-      bio: 'Jikai Jin\'s research focuses on making data-driven algorithms more principled and reliable. His work on Prescriptive Scaling Laws reveals how language model capabilities emerge and evolve, and his Hierarchical Component Analysis provides new tools for causal representation learning.',
+      bio: 'Jikai Jin\'s research focuses on making data-driven algorithms more principled and reliable. His work on Prescriptive Scaling Laws reveals how language model capabilities take shape and evolve, and his Hierarchical Component Analysis provides new tools for causal representation learning.',
       website: 'https://jkjin.com/',
       imageUrl: '/speakers/jikai_profile.jpg',
       initials: 'JJ',
@@ -159,7 +159,7 @@ export const speakers = {
     {
       name: 'Surya Ganguli',
       affiliation: 'Associate Professor, Stanford University',
-      bio: 'Surya Ganguli leverages statistical physics to study the training dynamics, generalization, and scaling laws of large neural networks. His works, including Diffusion Models, Exact Solutions to the Nonlinear Dynamics of Learning in Deep Linear Neural Networks and Deriving Neural Scaling Laws from the Statistics of Natural Language, provide a first-principles perspective on how complex capabilities emerge in large-scale systems.',
+      bio: 'Surya Ganguli leverages statistical physics to study the training dynamics, generalization, and scaling laws of large neural networks. His works, including Diffusion Models, Exact Solutions to the Nonlinear Dynamics of Learning in Deep Linear Neural Networks and Deriving Neural Scaling Laws from the Statistics of Natural Language, provide a first-principles perspective on deep learning.',
       website: 'https://ganguli-gang.stanford.edu/surya.html',
       imageUrl: '/speakers/surya_profile.jpg',
       initials: 'SG',
@@ -220,7 +220,7 @@ export const schedule = {
   lead: 'A full-day program designed to balance deep technical talks with open discussion and community engagement.',
   format: [
     { type: 'Opening Remarks', description: 'Welcome and framing of the workshop\'s scientific goals.' },
-    { type: 'Invited Talks', description: 'In-depth invited presentations on scaling, emergence, post-training, and alignment.' },
+    { type: 'Invited Talks', description: 'Deep dives into scaling, optimization, data, and the science of post-training.' },
     { type: 'Poster Sessions', description: 'Two dedicated poster sessions during coffee breaks to discuss accepted work.' },
     { type: 'Panel Discussion', description: 'A thematic panel discussion.' },
     { type: 'Contributed Spotlights', description: 'Top submissions presented as contributed spotlight talks.' },
@@ -230,15 +230,15 @@ export const schedule = {
     // Morning Session
     { time: '08:45 - 09:00', event: 'Opening Remarks', duration: '15 min' },
     { time: '09:00 - 09:30', event: 'Invited Talk: Ludwig Schmidt (Post-training Data & TerminalBench)', duration: '30 min' },
-    { time: '09:30 - 10:00', event: 'Invited Talk: Surya Ganguli (Physics of ML and Capability Emergence)', duration: '30 min' },
+    { time: '09:30 - 10:00', event: 'Invited Talk: Surya Ganguli (Physics of ML and Scaling Laws)', duration: '30 min' },
     { time: '10:00 - 10:30', event: 'Morning Break', duration: '30 min' },
-    { time: '10:30 - 11:00', event: 'Invited Talk: Andrew Gordon Wilson (Generalization & Representation Geometry)', duration: '30 min' },
-    { time: '11:00 - 11:30', event: 'Invited Talk: Zhiyuan Li (Understanding of Optimization and Post-training)', duration: '30 min' },
+    { time: '10:30 - 11:00', event: 'Invited Talk: Andrew Gordon Wilson (Scaling Collapse & Epiplexity)', duration: '30 min' },
+    { time: '11:00 - 11:30', event: 'Invited Talk: Zhiyuan Li (Theoretical Understanding of Optimization)', duration: '30 min' },
     { time: '11:30 - 12:00', event: 'Contributed Talks', duration: '30 min' },
     { time: '12:00 - 13:30', event: 'Lunch Break & Poster Session I', duration: '90 min' },
     // Afternoon Session
-    { time: '13:30 - 14:00', event: 'Invited Talk: Valentina Pyatkin (Post-Training & Verifiable Alignment)', duration: '30 min' },
-    { time: '14:00 - 14:30', event: 'Invited Talk: Mohammad Shoeybi (Large-Scale Training & Model Parallelism)', duration: '30 min' },
+    { time: '13:30 - 14:00', event: 'Invited Talk: Valentina Pyatkin (Post-Training Recipe and Evaluation)', duration: '30 min' },
+    { time: '14:00 - 14:30', event: 'Invited Talk: Mohammad Shoeybi (Nemotron: Lessons in Large-Scale Training)', duration: '30 min' },
     { time: '14:30 - 15:00', event: 'Contributed Talks', duration: '30 min' },
     { time: '15:00 - 15:30', event: 'Afternoon Break', duration: '30 min' },
     { time: '15:30 - 16:00', event: 'Invited Talk: Jikai Jin (Observational Studies & Prescriptive Scaling)', duration: '30 min' },
