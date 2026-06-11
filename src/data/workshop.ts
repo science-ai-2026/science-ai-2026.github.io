@@ -109,6 +109,8 @@ export const callForPapers = {
   lead: 'We invite original contributions that advance the scientific understanding of foundation models across training dynamics, post-training and alignment, and evaluation science.',
   description:
     'We welcome work that connects empirical observations with theoretical grounding, offers mechanistic insight, or develops rigorous methodology for studying foundation models. Negative results, careful reproductions, and position papers that articulate open problems are valued.',
+  descriptionHighlight:
+    'We particularly encourage work that bridges theory and empirical observation, ensuring that theoretical claims are accompanied by rigorous experimental validation.',
   categories: [
     {
       title: 'Full Papers',
@@ -144,7 +146,7 @@ export const callForPapers = {
 
 export const speakers = {
   heading: 'Invited Speakers',
-  lead: 'Our invited speakers bring deep expertise spanning theoretical foundations, empirical methodology, and large-scale model evaluation.',
+  lead: 'Our invited speakers bring deep expertise spanning theoretical foundations, empirical methodology, and large-scale training practice.',
   additionalNote: '',
   // TODO: Add more speakers as they are confirmed
   list: [
@@ -207,7 +209,7 @@ export const speakers = {
     {
       name: 'Andrew Gordon Wilson',
       affiliation: 'Professor, New York University',
-      bio: 'Andrew Gordon Wilson focuses on understanding why overparameterized models generalize effectively. His works on Bayesian Deep Learning and a Probabilistic Perspective of Generalization and Epiplexity explore the implicit biases of optimization procedures, probabilistic modeling, and the geometry of learned representations.',
+      bio: 'Andrew Gordon Wilson focuses on understanding why overparameterized models generalize effectively. His works on Bayesian Deep Learning and Deep Kernel Learning bridge probabilistic inference with modern neural architectures to provide principled perspectives on generalization. His recent work on Epiplexity introduces a new information-theoretic measure for quantifying learnable structure in data, offering a foundation for principled data selection and curation.',
       website: 'https://cims.nyu.edu/~andrewgw/',
       imageUrl: '/speakers/andrew_profile.jpeg',
       initials: 'AGW',
