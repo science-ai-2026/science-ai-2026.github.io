@@ -129,6 +129,7 @@ export const callForPapers = {
     'Top-scoring submissions will be selected for spotlight talks.',
     'All accepted papers will be presented as posters during the workshop.',
     'All reviewers will be acknowledged on the workshop website after the review process concludes.',
+    'Outstanding submissions will be selected for oral presentation, with best paper award(s) presented at the closing ceremony.',
   ],
   // TODO: Update these dates when finalized
   keyDates: [
