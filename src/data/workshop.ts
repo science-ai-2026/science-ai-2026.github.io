@@ -50,7 +50,7 @@ export const about = {
   heading: 'About the Workshop',
   lead: 'Moving from empirical scaling phenomena toward predictive science for foundation models.',
   body: [
-    'Despite the extraordinary capabilities of modern foundation models, our scientific understanding of these systems remains remarkably shallow. We can observe that scaling works — but we cannot yet predict when capabilities will emerge, why certain representations form, or how reasoning behavior arises from training dynamics.',
+    'Despite the extraordinary capabilities of modern foundation models, our scientific understanding of these systems remains remarkably shallow. We can observe that scaling works — but we cannot yet predict when capabilities will grow, why certain representations form, or how reasoning behavior arises from training dynamics.',
     'This workshop aims to catalyze a shift from capability demonstration to mechanistic explanation. We seek to identify laws, invariants, causal mechanisms, and rigorous evaluation methodologies that can make foundation models more controllable, reliable, and interpretable.',
     'By bringing together researchers from theory, empirical ML, interpretability, optimization, evaluation, and scientific methodology, we aim to lay groundwork for a genuine science of foundation models — one that offers not just post-hoc explanations, but predictive understanding.',
   ],
@@ -96,8 +96,8 @@ export const topics = {
       icon: 'evaluation',
       subtopics: [
         'Measurement methodology and fluid benchmarking for rapidly changing language models',
-        'Capability measurement, including latent capabilities, emergence, and in-context learning',
-        'Reproducibility, determinism in inference, and reliable conclusions from imperfect synthetic data',
+        'Characterizing model capabilities: discontinuous capability gains, compositional generalization, and skill acquisition dynamics',
+        'Reproducibility, determinism in inference, and reliable conclusions from imperfect data',
         'Scalable and automated analysis of model behavior and population-level phenomena',
       ],
     },
