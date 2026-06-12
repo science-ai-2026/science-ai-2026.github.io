@@ -37,6 +37,7 @@ export const hero = {
   statement:
     'Foundation models have transformed AI across language, vision, science, and multimodal reasoning — but we still lack a systematic scientific understanding of how they represent knowledge, generalize, reason, and align with human intent. This workshop brings together researchers committed to building that understanding.',
   metadata: [
+    { label: 'October 9, 2026', icon: 'date' },
     { label: 'In person at COLM 2026 (Hilton Union Square, SF)', icon: 'location' },
     { label: 'Live streaming available', icon: 'stream' }  ],
   ctas: [
@@ -51,8 +52,8 @@ export const about = {
   lead: 'Moving from empirical scaling phenomena toward predictive science for foundation models.',
   body: [
     'Despite the extraordinary capabilities of modern foundation models, our scientific understanding of these systems remains remarkably shallow. We can observe that scaling works — but we cannot yet predict when capabilities will grow, why certain representations form, or how reasoning behavior arises from training dynamics.',
-    'This workshop aims to catalyze a shift from capability demonstration to mechanistic explanation. We seek to identify laws, invariants, causal mechanisms, and rigorous evaluation methodologies that can make foundation models more controllable, reliable, and interpretable.',
-    'By bringing together researchers from theory, empirical ML, interpretability, optimization, evaluation, and scientific methodology, we aim to lay groundwork for a genuine science of foundation models — one that offers not just post-hoc explanations, but predictive understanding.',
+    'This workshop aims to catalyze a shift from capability demonstration to formal, testable theory. We seek to uncover laws, invariants, and causal structures — and to develop rigorous evaluation methodologies that can make foundation models more controllable, reliable, and interpretable.',
+    'By bringing together researchers from theory, empirical ML, interpretability, optimization, evaluation, and scientific methodology, we aim to lay groundwork for a genuine science of foundation models — one built on predictive understanding, not post-hoc narrative.',
   ],
   questions: [
     'What are the limits of scaling laws — and what comes after them?',
@@ -74,7 +75,7 @@ export const topics = {
       icon: 'theory',
       subtopics: [
         'Data curation, high-quality data mixtures, and the role of open models in driving capabilities',
-        'Optimization at scale, including width and depth scaling across training regimes',
+        'Optimization at scale: learning rate schedules, gradient flow, and hyperparameter transfer across model and data sizes',
         'How optimization choices affect quantization, post-training, and downstream model behavior',
         'Theoretical and empirical limits of scaling laws, including domain-specific scaling and breakdown regimes',
       ],
@@ -87,7 +88,7 @@ export const topics = {
         'RL, self-improvement, and how pre-training enables effective post-training',
         'Reward systems, reward model overoptimization, and utility engineering for value systems',
         'Scaling and designing RL environments for evaluating agentic behavior',
-        'High-quality post-training datasets, instruction tuning data, and reward models',
+        'High-quality post-training datasets, preference pairs and reasoning traces',
       ],
     },
     {
