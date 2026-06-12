@@ -109,7 +109,7 @@ export const callForPapers = {
   heading: 'Call for Papers',
   lead: 'We invite original contributions that advance the scientific understanding of foundation models across training dynamics, post-training and alignment, and evaluation science.',
   description:
-    'We welcome work that connects empirical observations with theoretical grounding, offers mechanistic insight, or develops rigorous methodology for studying foundation models. Negative results, careful reproductions, and position papers that articulate open problems are valued.',
+    'We welcome work that connects empirical observations with theoretical grounding, offers explanatory insight, or develops rigorous methodology for studying foundation models. Negative results, careful reproductions, and position papers that articulate open problems are valued. Submissions should use the <strong>default COLM template</strong>. This workshop is <strong>non-archival</strong> — accepted papers will not appear in official proceedings, and authors are free to submit their work to other venues.',
   categories: [
     {
       title: 'Full Papers',

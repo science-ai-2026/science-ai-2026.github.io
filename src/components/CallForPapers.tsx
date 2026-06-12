@@ -10,9 +10,9 @@ export default function CallForPapers() {
         <div className="mt-10 grid lg:grid-cols-3 gap-8">
           {/* Main content */}
           <div className="lg:col-span-2 space-y-8">
-            <p className="text-neutral-600 leading-relaxed">
-              {callForPapers.description}
-            </p>
+            <p className="text-neutral-600 leading-relaxed [&_strong]:font-bold [&_strong]:text-red-600"
+              dangerouslySetInnerHTML={{ __html: callForPapers.description }}
+            />
 
             {/* Submission categories */}
             <div className="grid sm:grid-cols-2 gap-4">
