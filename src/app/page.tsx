@@ -6,7 +6,7 @@ import CallForPapers from '@/components/CallForPapers';
 import Speakers from '@/components/Speakers';
 import Schedule from '@/components/Schedule';
 import Organizers from '@/components/Organizers';
-import Diversity from '@/components/Diversity';
+
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
         <Speakers />
         <Schedule />
         <Organizers />
-        <Diversity />
+
       </main>
       <Footer />
     </>
