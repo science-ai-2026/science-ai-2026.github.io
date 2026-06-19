@@ -113,7 +113,7 @@ export const callForPapers = {
   categories: [
     {
       title: 'Full Papers',
-      length: 'Up to 8 pages',
+      length: 'Up to 9 pages (same requirement as <a href="https://colmweb.org/cfp.html" target="_blank" rel="noopener noreferrer" class="underline text-primary-600 hover:text-primary-800">main conference</a>)',
       description:
         'Original research contributions presenting substantial theoretical, empirical, or methodological results.',
     },

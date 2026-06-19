@@ -22,9 +22,9 @@ export default function CallForPapers() {
                     <h3 className="text-base font-semibold text-neutral-900">
                       {cat.title}
                     </h3>
-                    <span className="text-xs font-medium text-neutral-700 bg-neutral-100 px-2 py-0.5">
-                      {cat.length}
-                    </span>
+                    <span className="text-xs font-medium text-neutral-700 bg-neutral-100 px-2 py-0.5 [&_a]:underline [&_a]:text-primary-600 hover:[&_a]:text-primary-800"
+                      dangerouslySetInnerHTML={{ __html: cat.length }}
+                    />
                   </div>
                   <p className="text-sm text-neutral-600 leading-relaxed">
                     {cat.description}
