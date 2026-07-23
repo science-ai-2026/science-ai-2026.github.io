@@ -126,7 +126,7 @@ export const callForPapers = {
   ],
   reviewProcess: [
     'All submissions undergo double-blind peer review.',
-    'Each submission receives at least two expert reviews.',
+    'Each submission receives at least one expert reviews.',
     'Top-scoring submissions will be selected for spotlight talks.',
     'All accepted papers will be presented as posters during the workshop.',
     'All reviewers will be acknowledged on the workshop website after the review process concludes.',
