@@ -25,9 +25,11 @@ export const navigation = [
   { label: 'About', href: '#about' },
   { label: 'Topics', href: '#topics' },
   { label: 'Call for Papers', href: '#cfp' },
+  { label: 'Accepted Papers', href: '#accepted-papers' },
   { label: 'Speakers', href: '#speakers' },
   { label: 'Schedule', href: '#schedule' },
   { label: 'Organizers', href: '#organizers' },
+  { label: 'Reviewers', href: '#reviewers' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -235,12 +237,31 @@ export const schedule = {
     { time: '10:00 - 10:30', event: 'Morning Break', duration: '30 min' },
     { time: '10:30 - 11:00', event: 'Invited Talk: Andrew Gordon Wilson (Scaling Collapse & Epiplexity)', duration: '30 min' },
     { time: '11:00 - 11:30', event: 'Invited Talk: Zhiyuan Li (Theoretical Understanding of Optimization)', duration: '30 min' },
-    { time: '11:30 - 12:00', event: 'Contributed Talks', duration: '30 min' },
+    {
+      time: '11:30 - 12:00',
+      event: 'Contributed Oral Talks',
+      duration: '30 min',
+      details: [
+        'Demystifying Classifier-Free Guidance for Auto-Regressive Image Generation',
+        'TwistBench: Benchmarking Transformational Creativity in LLMs via Literary Plot Twists',
+        'Spend Less, Fit Better: Budget-Efficient Scaling Law Fitting via Active Experiment Selection',
+      ],
+    },
     { time: '12:00 - 13:30', event: 'Lunch Break & Poster Session I', duration: '90 min' },
     // Afternoon Session
     { time: '13:30 - 14:00', event: 'Invited Talk: Valentina Pyatkin (Post-Training Recipe and Evaluation)', duration: '30 min' },
     { time: '14:00 - 14:30', event: 'Invited Talk: Mohammad Shoeybi (Nemotron: Lessons in Large-Scale Training)', duration: '30 min' },
-    { time: '14:30 - 15:00', event: 'Contributed Talks', duration: '30 min' },
+    {
+      time: '14:30 - 15:00',
+      event: 'Contributed Oral Talks',
+      duration: '30 min',
+      details: [
+        'Emergent Misalignment as a Distributional Phase Transition in Rank-1 LoRA Fine-Tuning',
+        'Where did the ambiguity go? Examining how multimodal models interpret polysemous words',
+        'How Much Do Circuits Tell Us? Measuring the Consistency and Specificity of Language Model Circuits',
+        'The Future of Facts: Tracing the Factual Generation-Verification Gap',
+      ],
+    },
     { time: '15:00 - 15:30', event: 'Afternoon Break', duration: '30 min' },
     { time: '15:30 - 16:00', event: 'Invited Talk: Jikai Jin (Observational Studies & Prescriptive Scaling)', duration: '30 min' },
     { time: '16:00 - 16:30', event: 'Invited Talk: Hector Liu (Open-Source LLM Training & Transparency)', duration: '30 min' },

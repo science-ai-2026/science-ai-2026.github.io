@@ -39,20 +39,31 @@ export default function Schedule() {
                   return (
                     <div
                       key={i}
-                      className={`flex items-center gap-4 px-5 py-3.5 ${
+                      className={`flex items-start gap-4 px-5 py-3.5 ${
                         isBreak ? 'bg-neutral-50' : ''
                       }`}
                     >
                       <span className="text-sm font-mono text-neutral-400 w-28 flex-shrink-0">
                         {slot.time}
                       </span>
-                      <span
-                        className={`text-sm flex-1 ${
-                          isBreak ? 'text-neutral-400' : 'text-neutral-800 font-medium'
-                        }`}
-                      >
-                        {slot.event}
-                      </span>
+                      <div className="flex-1">
+                        <span
+                          className={`text-sm ${
+                            isBreak ? 'text-neutral-400' : 'text-neutral-800 font-medium'
+                          }`}
+                        >
+                          {slot.event}
+                        </span>
+                        {'details' in slot && slot.details && (
+                          <ul className="mt-2 list-disc space-y-1.5 pl-4">
+                            {slot.details.map((detail) => (
+                              <li key={detail} className="text-sm leading-relaxed text-neutral-600">
+                                {detail}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
                     </div>
                   );
                 })}
