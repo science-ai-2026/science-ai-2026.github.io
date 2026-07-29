@@ -3,6 +3,7 @@ import reviewersData from '@/data/reviewers.json';
 type Reviewer = {
   id: string;
   name: string;
+  openreviewPage: string;
 };
 
 const reviewers = reviewersData as Reviewer[];
@@ -24,9 +25,15 @@ export default function Reviewers() {
         <div className="mt-10 rounded border border-neutral-200 bg-white p-6">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {sortedReviewers.map((reviewer) => (
-              <div key={reviewer.id} className="text-sm font-medium text-neutral-800">
+              <a
+                key={reviewer.id}
+                href={reviewer.openreviewPage}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-neutral-800"
+              >
                 {reviewer.name}
-              </div>
+              </a>
             ))}
           </div>
         </div>
