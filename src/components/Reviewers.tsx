@@ -21,15 +21,14 @@ export default function Reviewers() {
           We thank the reviewers for their time and effort in reviewing for our workshop.
         </p>
 
-        <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {sortedReviewers.map((reviewer) => (
-            <div
-              key={reviewer.id}
-              className="rounded border border-neutral-200 bg-white px-4 py-3 text-sm font-medium text-neutral-800"
-            >
-              {reviewer.name}
-            </div>
-          ))}
+        <div className="mt-10 rounded border border-neutral-200 bg-white p-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {sortedReviewers.map((reviewer) => (
+              <div key={reviewer.id} className="text-sm font-medium text-neutral-800">
+                {reviewer.name}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
