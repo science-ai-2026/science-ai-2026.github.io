@@ -136,7 +136,7 @@ export const callForPapers = {
   keyDates: [
     { event: 'Submission Deadline', date: 'June 23, 2026' },
     { event: 'Author Notification', date: 'July 24, 2026' },
-    { event: 'Camera-Ready Deadline', date: 'TBA' },
+    { event: 'Camera-Ready Deadline', date: 'August 20, 2026' },
     { event: 'Workshop Date', date: 'October 9, 2026' },
   ],
   submissionUrl: siteConfig.openReviewUrl,
