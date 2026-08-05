@@ -21,16 +21,16 @@ export const siteConfig = {
 };
 
 export const navigation = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Topics', href: '#topics' },
-  { label: 'Call for Papers', href: '#cfp' },
-  { label: 'Accepted Papers', href: '#accepted-papers' },
-  { label: 'Speakers', href: '#speakers' },
-  { label: 'Schedule', href: '#schedule' },
-  { label: 'Organizers', href: '#organizers' },
-  { label: 'Reviewers', href: '#reviewers' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/#about' },
+  { label: 'Topics', href: '/#topics' },
+  { label: 'Call for Papers', href: '/#cfp' },
+  { label: 'Accepted Papers', href: '/accepted-papers' },
+  { label: 'Speakers', href: '/#speakers' },
+  { label: 'Schedule', href: '/#schedule' },
+  { label: 'Organizers', href: '/#organizers' },
+  { label: 'Reviewers', href: '/#reviewers' },
+  { label: 'Contact', href: '/#contact' },
 ];
 
 export const hero = {
