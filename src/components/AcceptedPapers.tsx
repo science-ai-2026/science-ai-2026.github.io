@@ -6,6 +6,7 @@ type AcceptedPaper = {
   forum: string;
   title: string;
   presentation: 'Oral' | 'Poster';
+  authors?: string[];
 };
 
 const acceptedPapers = acceptedPapersData as AcceptedPaper[];
@@ -52,6 +53,11 @@ export default function AcceptedPapers() {
               >
                 {paper.title}
               </span>
+              {paper.authors && paper.authors.length > 0 && (
+                <span className="block mt-1.5 text-sm leading-snug text-neutral-600">
+                  {paper.authors.join(', ')}
+                </span>
+              )}
               <span
                 className={`inline-block mt-2 text-xs uppercase tracking-wider ${
                   paper.presentation === 'Oral'
