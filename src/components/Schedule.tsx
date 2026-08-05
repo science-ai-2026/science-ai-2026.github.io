@@ -1,4 +1,11 @@
+import acceptedPapersData from '@/data/acceptedPapers.json';
 import { schedule } from '@/data/workshop';
+
+// Oral talk titles in the timeline are resolved to their OpenReview pages by
+// exact title match against the accepted papers list (single source of truth).
+const forumByTitle = new Map(
+  (acceptedPapersData as { title: string; forum: string }[]).map((p) => [p.title, p.forum])
+);
 
 export default function Schedule() {
   return (
@@ -56,11 +63,25 @@ export default function Schedule() {
                         </span>
                         {'details' in slot && slot.details && (
                           <ul className="mt-2 list-disc space-y-1.5 pl-4">
-                            {slot.details.map((detail) => (
-                              <li key={detail} className="text-sm leading-relaxed text-neutral-600">
-                                {detail}
-                              </li>
-                            ))}
+                            {slot.details.map((detail) => {
+                              const forum = forumByTitle.get(detail);
+                              return (
+                                <li key={detail} className="text-sm leading-relaxed text-neutral-600">
+                                  {forum ? (
+                                    <a
+                                      href={forum}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="underline decoration-neutral-300 underline-offset-2 hover:text-primary-700 hover:decoration-primary-400 focus:outline-none focus:ring-1 focus:ring-primary-600"
+                                    >
+                                      {detail}
+                                    </a>
+                                  ) : (
+                                    detail
+                                  )}
+                                </li>
+                              );
+                            })}
                           </ul>
                         )}
                       </div>

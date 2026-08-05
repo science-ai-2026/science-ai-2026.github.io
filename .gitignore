@@ -1,4 +1,6 @@
 # dependencies
+assets
+
 /node_modules
 /.pnp
 .pnp.js
@@ -16,6 +18,10 @@
 # misc
 .DS_Store
 *.pem
+
+# local-only scripts (never committed)
+/tools-local
+/.history
 
 # debug
 npm-debug.log*

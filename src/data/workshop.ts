@@ -138,9 +138,13 @@ export const callForPapers = {
   keyDates: [
     { event: 'Submission Deadline', date: 'June 23, 2026' },
     { event: 'Author Notification', date: 'July 24, 2026' },
-    { event: 'Camera-Ready Deadline', date: 'August 20, 2026' },
+    {
+      event: 'Camera-Ready Deadline',
+      date: 'August 20, 2026',
+      note: 'Please use the workshop name as the header or include \\lhead{Published as a workshop paper at Sci-FM@COLM 2026} in the .sty file',
+    },
     { event: 'Workshop Date', date: 'October 9, 2026' },
-  ],
+  ] as { event: string; date: string; note?: string }[],
   submissionUrl: siteConfig.openReviewUrl,
   guidelinesUrl: '#', // TODO: Replace with submission guidelines link
 };

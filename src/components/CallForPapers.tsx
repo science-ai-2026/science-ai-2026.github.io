@@ -78,9 +78,32 @@ export default function CallForPapers() {
                 <ul className="space-y-4">
                   {callForPapers.keyDates.map((item) => (
                     <li key={item.event} className="flex flex-col">
-                      <span className="text-xs font-medium text-neutral-500 uppercase tracking-wider">
-                        {item.event}
-                      </span>
+                      {item.note ? (
+                        <span className="group relative inline-flex items-center gap-1 self-start text-xs font-medium text-neutral-500 uppercase tracking-wider">
+                          <span className="underline decoration-dotted decoration-neutral-400 underline-offset-2 cursor-help">
+                            {item.event}
+                          </span>
+                          <button
+                            type="button"
+                            aria-label={`Details for ${item.event}`}
+                            className="flex-shrink-0 text-neutral-400 hover:text-primary-600 focus:text-primary-600 focus:outline-none"
+                          >
+                            <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                              <path fillRule="evenodd" d="M18 10A8 8 0 112 10a8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                            </svg>
+                          </button>
+                          <span
+                            role="tooltip"
+                            className="pointer-events-none absolute left-0 top-full z-20 mt-2 w-64 origin-top scale-95 rounded border border-neutral-300 bg-neutral-900 px-3 py-2 text-xs font-normal normal-case leading-relaxed tracking-normal text-white opacity-0 shadow-lg transition duration-150 group-hover:scale-100 group-hover:opacity-100 group-focus-within:scale-100 group-focus-within:opacity-100"
+                          >
+                            {item.note}
+                          </span>
+                        </span>
+                      ) : (
+                        <span className="text-xs font-medium text-neutral-500 uppercase tracking-wider">
+                          {item.event}
+                        </span>
+                      )}
                       <span className={`text-base font-semibold mt-0.5 ${
                         item.date === 'TBA' ? 'text-neutral-400 italic' : 'text-neutral-900'
                       }`}>
