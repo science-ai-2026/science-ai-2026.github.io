@@ -23,6 +23,9 @@ assets
 /tools-local
 /.history
 
+# accepted paper list — kept locally, never committed
+/src/data/acceptedPapers.json
+
 # debug
 npm-debug.log*
 yarn-debug.log*
