@@ -114,7 +114,7 @@ export const callForPapers = {
   categories: [
     {
       title: 'Full Papers',
-      length: 'Up to 9 pages (same requirement as <a href="https://colmweb.org/cfp.html" target="_blank" rel="noopener noreferrer" class="underline text-primary-600 hover:text-primary-800">main conference</a>)',
+      length: 'Up to 9 pages at submission (same requirement as <a href="https://colmweb.org/cfp.html" target="_blank" rel="noopener noreferrer" class="underline text-primary-600 hover:text-primary-800">main conference</a>), extendable to 10 pages for the camera-ready version',
       description:
         'Original research contributions presenting substantial theoretical, empirical, or methodological results.',
     },
@@ -140,7 +140,7 @@ export const callForPapers = {
     {
       event: 'Camera-Ready Deadline',
       date: 'August 20, 2026',
-      note: 'Please use the workshop name as the header or include \\lhead{Published as a workshop paper at Sci-FM@COLM 2026} in the .sty file',
+      note: 'Full papers may extend to 10 pages (from 9 at submission); short papers remain up to 4 pages. Please use the workshop name as the header or include \\lhead{Published as a workshop paper at Sci-FM@COLM 2026} in the .sty file',
     },
     { event: 'Workshop Date', date: 'October 9, 2026' },
   ] as { event: string; date: string; note?: string }[],
@@ -277,15 +277,16 @@ export const organizers = {
   heading: 'Organizers',
   lead: '',
   // TODO: Update affiliations and websites for each organizer
+  // Lead organizer first, remaining organizers alphabetical by last name.
   list: [
     { name: 'Hanlin Zhang', affiliation: '', website: 'https://hanlin-zhang.com/', imageUrl: '/organizers/hanlin_profile.png', initials: 'HZ' },
     { name: 'Natalie Abreu', affiliation: '', website: 'https://natalieabreu.github.io/website/', imageUrl: '/organizers/natalie_profile.JPG', initials: 'NA' },
-    { name: 'Yizhou Liu', affiliation: '', website: 'https://liuyz0.github.io/', imageUrl: '/organizers/yizhou_profile.webp', initials: 'YL' },
-    { name: 'Yizhong Wang', affiliation: '', website: 'https://homes.cs.washington.edu/~yizhongw/', imageUrl: '/organizers/yizhong_profile.jpg', initials: 'YW' },
-    { name: 'Sham Kakade', affiliation: '', website: 'https://sham.seas.harvard.edu/', imageUrl: '/organizers/sham_profile.jpg', initials: 'SK' },
-    { name: 'Kaiyue Wen', affiliation: '', website: 'https://whenwen.github.io/', imageUrl: '/organizers/kaiyue_profile.jpg', initials: 'KW' },
-    { name: 'Sewon Min', affiliation: '', website: 'https://www.sewonmin.com/', imageUrl: '/organizers/sewon_profile.jpg', initials: 'SM' },
     { name: 'Alex Damian', affiliation: '', website: 'https://alex-damian.github.io/', imageUrl: '/organizers/damian_profile.jpg', initials: 'AD' },
+    { name: 'Sham Kakade', affiliation: '', website: 'https://sham.seas.harvard.edu/', imageUrl: '/organizers/sham_profile.jpg', initials: 'SK' },
+    { name: 'Yizhou Liu', affiliation: '', website: 'https://liuyz0.github.io/', imageUrl: '/organizers/yizhou_profile.webp', initials: 'YL' },
+    { name: 'Sewon Min', affiliation: '', website: 'https://www.sewonmin.com/', imageUrl: '/organizers/sewon_profile.jpg', initials: 'SM' },
+    { name: 'Yizhong Wang', affiliation: '', website: 'https://homes.cs.washington.edu/~yizhongw/', imageUrl: '/organizers/yizhong_profile.jpg', initials: 'YW' },
+    { name: 'Kaiyue Wen', affiliation: '', website: 'https://whenwen.github.io/', imageUrl: '/organizers/kaiyue_profile.jpg', initials: 'KW' },
   ],
 };
 
@@ -308,7 +309,7 @@ export const faq = {
     {
       question: 'Will there be a call for papers?',
       answer:
-        'Yes. We will solicit both full papers (up to 8 pages) and short papers (up to 4 pages), covering original research, preliminary findings, negative results, and position papers. See the Call for Papers section for details.',
+        'Yes. We will solicit both full papers (up to 9 pages) and short papers (up to 4 pages), covering original research, preliminary findings, negative results, and position papers. See the Call for Papers section for details.',
     },
     {
       question: 'Will remote participation be available?',
