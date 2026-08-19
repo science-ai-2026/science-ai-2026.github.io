@@ -25,6 +25,7 @@ export const navigation = [
   { label: 'About', href: '/#about' },
   { label: 'Topics', href: '/#topics' },
   { label: 'Call for Papers', href: '/#cfp' },
+  { label: 'Accepted Papers', href: '/accepted-papers' },
   { label: 'Speakers', href: '/#speakers' },
   { label: 'Schedule', href: '/#schedule' },
   { label: 'Organizers', href: '/#organizers' },
@@ -139,7 +140,7 @@ export const callForPapers = {
     { event: 'Author Notification', date: 'July 24, 2026' },
     {
       event: 'Camera-Ready Deadline',
-      date: 'August 20, 2026',
+      date: 'August 26, 2026',
       note: 'Full papers may extend to 10 pages (from 9 at submission); short papers remain up to 4 pages. Please use the workshop name as the header or include \\lhead{Published as a workshop paper at Sci-FM@COLM 2026} in the .sty file',
     },
     { event: 'Workshop Date', date: 'October 9, 2026' },

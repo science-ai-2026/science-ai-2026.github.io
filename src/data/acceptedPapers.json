@@ -1,0 +1,798 @@
+[
+    {
+        "number": "1",
+        "forum": "https://openreview.net/forum?id=hqd2MUmLvz",
+        "title": "H-Probes: Extracting Hierarchical Structures From Latent Representations of Language Models",
+        "presentation": "Poster",
+        "authors": [
+            "Cutter Dawes",
+            "Aryan Sharma",
+            "Angelos Ioannis Lagos",
+            "Shivam Raval"
+        ]
+    },
+    {
+        "number": "2",
+        "forum": "https://openreview.net/forum?id=EVD4Clg35Z",
+        "title": "You Only Judge Once: Multi-response Reward Modeling in a Single Forward Pass",
+        "presentation": "Poster",
+        "authors": [
+            "Yinuo Yang",
+            "Zixian Ma",
+            "Manasi Ganti",
+            "Jieyu Zhang",
+            "Ranjay Krishna"
+        ]
+    },
+    {
+        "number": "3",
+        "forum": "https://openreview.net/forum?id=Oznkw4Uncb",
+        "title": "Economy of Minds: Emerging Multi-Agent Intelligence with Economic Interactions",
+        "presentation": "Poster",
+        "authors": [
+            "Zhenting Qi",
+            "Huangyuan Su",
+            "Ao Qu",
+            "Chenyu Wang",
+            "Yu Yao",
+            "Han Zheng",
+            "Kushal Chattopadhyay",
+            "Guowei Xu",
+            "Zihan Wang",
+            "Weirui Ye",
+            "Vijay Janapa Reddi",
+            "Ju Li",
+            "Paul Pu Liang",
+            "Himabindu Lakkaraju",
+            "Sham M. Kakade",
+            "Yilun Du"
+        ]
+    },
+    {
+        "number": "5",
+        "forum": "https://openreview.net/forum?id=bcwo2b0306",
+        "title": "Truncation Is Not the Bottleneck: Reliable Calibration Conclusions from Truncated API Log-Probabilities",
+        "presentation": "Poster",
+        "authors": [
+            "Rob Sneiderman"
+        ]
+    },
+    {
+        "number": "6",
+        "forum": "https://openreview.net/forum?id=XLlj6U296j",
+        "title": "Weight Decay Improves Language Model Plasticity",
+        "presentation": "Poster",
+        "authors": [
+            "Tessa Han",
+            "Sebastian Bordt",
+            "Hanlin Zhang",
+            "Sham M. Kakade"
+        ]
+    },
+    {
+        "number": "7",
+        "forum": "https://openreview.net/forum?id=gmMDBhTBEl",
+        "title": "Roundtable Policy: Scaling Multi-Agent Reasoning with Confidence-Weighted-Consensus",
+        "presentation": "Poster",
+        "authors": [
+            "Yu Yao",
+            "Jiayi Dong",
+            "Zhenting Qi",
+            "Tianyu Wu",
+            "Chengxi Zhang",
+            "Himabindu Lakkaraju",
+            "Yang Yang",
+            "Yilun Du",
+            "Ju Li"
+        ]
+    },
+    {
+        "number": "9",
+        "forum": "https://openreview.net/forum?id=SAu1MonYUh",
+        "title": "Demonstrations, CoT, and Prompting: A Theoretical Analysis of In-Context Learning",
+        "presentation": "Poster",
+        "authors": [
+            "Xuhan Tong",
+            "Yuchen Zeng",
+            "Jiawei Zhang"
+        ]
+    },
+    {
+        "number": "10",
+        "forum": "https://openreview.net/forum?id=kfH8ZGnGIT",
+        "title": "Temporal Conflict Resolution in Video Large Language Models",
+        "presentation": "Poster",
+        "authors": [
+            "Evan Do",
+            "Samuel Maddux",
+            "Steven Ngo",
+            "Ahaan Narang",
+            "Shivank Garg",
+            "Kevin Zhu",
+            "Vasu Sharma"
+        ]
+    },
+    {
+        "number": "11",
+        "forum": "https://openreview.net/forum?id=3bwUgm85oG",
+        "title": "INFUSER: Influence-Guided Self-Evolution Improves Reasoning",
+        "presentation": "Poster",
+        "authors": [
+            "Siyu Chen",
+            "Miao Lu",
+            "Beining Wu",
+            "Heejune Sheen",
+            "Fengzhuo Zhang",
+            "Shuangning Li",
+            "Zhiyuan Li",
+            "Jose Blanchet",
+            "Tianhao Wang",
+            "Zhuoran Yang"
+        ]
+    },
+    {
+        "number": "12",
+        "forum": "https://openreview.net/forum?id=FsJ9QfjHJ1",
+        "title": "Do as I Say, Not as I Do: Instruction-Induction Conflict in LLMs",
+        "presentation": "Poster",
+        "authors": [
+            "Carolina Camassa",
+            "Derek Shiller"
+        ]
+    },
+    {
+        "number": "13",
+        "forum": "https://openreview.net/forum?id=vLWD2VZUT4",
+        "title": "How Faithful Is Trajectory-Based Data Attribution? Error Sources, Remedies, and Practical Guideline",
+        "presentation": "Poster",
+        "authors": [
+            "Junwei Deng",
+            "Pingbang Hu",
+            "Suliang Jin",
+            "Hao Lu",
+            "Jiachen T. Wang",
+            "Shichang Zhang",
+            "Jiaqi W. Ma"
+        ]
+    },
+    {
+        "number": "14",
+        "forum": "https://openreview.net/forum?id=ECkH9BV2NC",
+        "title": "Where Does Social Reasoning Come From? Capability Provenance in Language Models",
+        "presentation": "Poster",
+        "authors": [
+            "Glenn Matlin",
+            "Chandreyi Chakraborty",
+            "Saehee Eom",
+            "Mika Okamoto",
+            "Rayan Castilla",
+            "Louis Jaburi",
+            "Alvin Deng",
+            "Taywon Min",
+            "Lucia Quirke",
+            "Stella Biderman",
+            "Mark Riedl"
+        ]
+    },
+    {
+        "number": "15",
+        "forum": "https://openreview.net/forum?id=gE8q1TxmVi",
+        "title": "How Much Do Circuits Tell Us? Measuring the Consistency and Specificity of Language Model Circuits",
+        "presentation": "Oral",
+        "authors": [
+            "Michael Li",
+            "Nishant Subramani"
+        ]
+    },
+    {
+        "number": "17",
+        "forum": "https://openreview.net/forum?id=hwDwJDp2U0",
+        "title": "CLIO-BENCH: Beyond Accuracy in AI Historical Judgment",
+        "presentation": "Poster",
+        "authors": [
+            "Zhuoming Chen",
+            "Zhihao Jia",
+            "Beidi Chen"
+        ]
+    },
+    {
+        "number": "18",
+        "forum": "https://openreview.net/forum?id=GmmyqxI7YD",
+        "title": "Towards Physical Intuitions for Alignment Dynamics: A Case Study With Randomness Crystallization",
+        "presentation": "Poster",
+        "authors": [
+            "Kunal Samanta",
+            "Ari Holtzman",
+            "Peter West"
+        ]
+    },
+    {
+        "number": "19",
+        "forum": "https://openreview.net/forum?id=2abVEfpikE",
+        "title": "Controlling for Feature Frequency in Sparse Autoencoder Steering of Mathematical Reasoning",
+        "presentation": "Poster",
+        "authors": [
+            "Marina Cintra Luiz",
+            "Michael Ma",
+            "Anish Varada",
+            "Preston Hu",
+            "Shivank Garg",
+            "Kevin Zhu"
+        ]
+    },
+    {
+        "number": "20",
+        "forum": "https://openreview.net/forum?id=4HfLaVwss2",
+        "title": "Peer-Predictive Self-Training for Language Model Reasoning",
+        "presentation": "Poster",
+        "authors": [
+            "Shi Feng",
+            "Hanlin Zhang",
+            "Fan Nie",
+            "Sham M. Kakade",
+            "Yiling Chen"
+        ]
+    },
+    {
+        "number": "21",
+        "forum": "https://openreview.net/forum?id=HiTg3WjcHe",
+        "title": "Spend Less, Fit Better: Budget-Efficient Scaling Law Fitting via Active Experiment Selection",
+        "presentation": "Oral",
+        "authors": [
+            "Sijie Li",
+            "Shanda Li",
+            "Haowei Lin",
+            "Weiwei Sun",
+            "Ameet Talwalkar",
+            "Yiming Yang"
+        ]
+    },
+    {
+        "number": "22",
+        "forum": "https://openreview.net/forum?id=8mMY2gI8JI",
+        "title": "Dr. Post-Training: A Data Regularization Perspective on LLM Post-Training",
+        "presentation": "Poster",
+        "authors": [
+            "Pingbang Hu",
+            "Xueshen Liu",
+            "Zhuoqing Mao",
+            "Jiaqi W. Ma"
+        ]
+    },
+    {
+        "number": "23",
+        "forum": "https://openreview.net/forum?id=jFH1RY2ZFe",
+        "title": "Playing Psychic: Using Thought Trees to Predict Reasoning Models Accuracy on Coding Tasks",
+        "presentation": "Poster",
+        "authors": [
+            "Jiaxin Fang",
+            "Runyuan He",
+            "Sahil Bhatia",
+            "Neel Gajare",
+            "Alvin Cheung"
+        ]
+    },
+    {
+        "number": "25",
+        "forum": "https://openreview.net/forum?id=ECZU9M64Df",
+        "title": "Shorter Context, Fewer Negatives: How Information Reduction Biases LLM Scientific Reasoning",
+        "presentation": "Poster",
+        "authors": [
+            "Chandra Dronavajjala"
+        ]
+    },
+    {
+        "number": "26",
+        "forum": "https://openreview.net/forum?id=FAGGAuXhmd",
+        "title": "Taming Polysemanticity in LLMs: Theory-Grounded Feature Recovery via Sparse Autoencoders",
+        "presentation": "Poster",
+        "authors": [
+            "Siyu Chen",
+            "Heejune Sheen",
+            "Xuyuan Xiong",
+            "Tianhao Wang",
+            "Zhuoran Yang"
+        ]
+    },
+    {
+        "number": "27",
+        "forum": "https://openreview.net/forum?id=wf6Z5P5kcJ",
+        "title": "ClayBuddy: A Framework, Evaluation, & Mitigation of Coding Agent Failures",
+        "presentation": "Poster",
+        "authors": [
+            "Kenneth Ge",
+            "Andre N. Assis"
+        ]
+    },
+    {
+        "number": "29",
+        "forum": "https://openreview.net/forum?id=xz6UJqQt8r",
+        "title": "MultiView-Bench: A Diagnostic Benchmark for World-Centric Multi-View Integration in VLMs",
+        "presentation": "Poster",
+        "authors": [
+            "Hantao Zhang",
+            "Jinru Sui",
+            "Ed Li",
+            "Dirk Bergemann",
+            "Zhuoran Yang"
+        ]
+    },
+    {
+        "number": "30",
+        "forum": "https://openreview.net/forum?id=YqK6vZpjN9",
+        "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
+        "presentation": "Poster",
+        "authors": [
+            "Andrei Liviu Nicolicioiu",
+            "Mohammad Pezeshki",
+            "Aaron Courville"
+        ]
+    },
+    {
+        "number": "31",
+        "forum": "https://openreview.net/forum?id=2WgZ2xXX9X",
+        "title": "What AstroPT knows about galaxies, and what that can teach us about LLMs",
+        "presentation": "Poster",
+        "authors": [
+            "Kshitij Duraphe",
+            "Aman Kumar",
+            "Michael J. Smith",
+            "Shashwat Sourav"
+        ]
+    },
+    {
+        "number": "32",
+        "forum": "https://openreview.net/forum?id=VRkG5FTeFg",
+        "title": "Language model suffer from a curse of ambiguity",
+        "presentation": "Poster",
+        "authors": [
+            "Nicolas Zucchet",
+            "Hyun Dong Lee",
+            "Scott Linderman"
+        ]
+    },
+    {
+        "number": "33",
+        "forum": "https://openreview.net/forum?id=6lH57ZPxSA",
+        "title": "Natively Unlearnable Large Language Models",
+        "presentation": "Poster",
+        "authors": [
+            "Gaurav Rohit Ghosal",
+            "Pratyush Maini",
+            "Aditi Raghunathan"
+        ]
+    },
+    {
+        "number": "34",
+        "forum": "https://openreview.net/forum?id=QF6s1rqnZN",
+        "title": "Interpreting Attention Sink Neurons in Large Language Models",
+        "presentation": "Poster",
+        "authors": [
+            "Jasmine Shone",
+            "Amil Dravid"
+        ]
+    },
+    {
+        "number": "36",
+        "forum": "https://openreview.net/forum?id=aR5ZgeuDpN",
+        "title": "Where did the ambiguity go? Examining how multimodal models interpret polysemous words",
+        "presentation": "Oral",
+        "authors": [
+            "Jasin Cekinmez",
+            "Addison J. Wu",
+            "Raja Marjieh",
+            "Thomas L. Griffiths"
+        ]
+    },
+    {
+        "number": "37",
+        "forum": "https://openreview.net/forum?id=gv3cJtNNLR",
+        "title": "Finding the Minimal Parameter Budget for Implicit Reasoning: A Data Complexity Driven Scaling Law for Language Models",
+        "presentation": "Poster",
+        "authors": [
+            "Xinyi Wang",
+            "Shawn Tan",
+            "Shenbo Xu",
+            "Mingyu Jin",
+            "William Yang Wang",
+            "Rameswar Panda",
+            "Yikang Shen"
+        ]
+    },
+    {
+        "number": "38",
+        "forum": "https://openreview.net/forum?id=AcFBYyCTnZ",
+        "title": "Token Geometry",
+        "presentation": "Poster",
+        "authors": [
+            "Kathan Shah"
+        ]
+    },
+    {
+        "number": "39",
+        "forum": "https://openreview.net/forum?id=QEGkwy0gtG",
+        "title": "Rethinking On-Policy Self-Distillation for Thinking Models",
+        "presentation": "Poster",
+        "authors": [
+            "Simran Kaur",
+            "Narutatsu Ri",
+            "Yinghui He",
+            "Liam H Fowl",
+            "Sanjeev Arora"
+        ]
+    },
+    {
+        "number": "40",
+        "forum": "https://openreview.net/forum?id=181wn4s8Hu",
+        "title": "The Future of Facts: Tracing the Factual Generation-Verification Gap",
+        "presentation": "Oral",
+        "authors": [
+            "Tim R. Davidson",
+            "Anja Surina",
+            "Caglar Gulcehre"
+        ]
+    },
+    {
+        "number": "41",
+        "forum": "https://openreview.net/forum?id=oOZefOxaJy",
+        "title": "Confidence as a Compass: Regime-Dependent Dual Steering for Safety–Utility Tradeoffs in Language Models",
+        "presentation": "Poster",
+        "authors": [
+            "Saleena Angeline Sartawita",
+            "Vanessa Matvei",
+            "Calvin Supasanya",
+            "Diyorbek Urozboev",
+            "Nyida Gyal",
+            "Shivank Garg",
+            "Kevin Zhu"
+        ]
+    },
+    {
+        "number": "46",
+        "forum": "https://openreview.net/forum?id=Yzb7x0k5Qo",
+        "title": "How Language Models Choose Sides: Internal Representations of Instruction Hierarchy",
+        "presentation": "Poster",
+        "authors": [
+            "Enrique Balp-Straffon",
+            "Chih-Hao Hsu",
+            "Rushiraj Gadhvi",
+            "Sunishchal Dev",
+            "Callum Stuart McDougall",
+            "Anusha Mujumdar"
+        ]
+    },
+    {
+        "number": "47",
+        "forum": "https://openreview.net/forum?id=CTeW83WuQO",
+        "title": "Why GRPO Needs Normalization: A Local-Curvature Perspective on Adaptive Gradients",
+        "presentation": "Poster",
+        "authors": [
+            "Cheng Ge",
+            "Caitlyn H. Yin",
+            "Hao Liang",
+            "Jiawei Zhang"
+        ]
+    },
+    {
+        "number": "50",
+        "forum": "https://openreview.net/forum?id=GF4nHK0Skg",
+        "title": "Neuron Populations Exhibit Divergent Selectivity with Scale",
+        "presentation": "Poster",
+        "authors": [
+            "Amil Dravid",
+            "Yasaman Bahri",
+            "Alexei A Efros",
+            "Yossi Gandelsman"
+        ]
+    },
+    {
+        "number": "51",
+        "forum": "https://openreview.net/forum?id=dFgWvK2YaX",
+        "title": "TwistBench: Benchmarking Transformational Creativity in LLMs via Literary Plot Twists",
+        "presentation": "Oral",
+        "authors": [
+            "Samuel Schapiro",
+            "Alexi Gladstone",
+            "Heng Ji",
+            "Roger E. Beaty"
+        ]
+    },
+    {
+        "number": "52",
+        "forum": "https://openreview.net/forum?id=sH2zuvSmXA",
+        "title": "Algorithmic Blindness in Large Language Models: A Calibration Study of Performance Prediction",
+        "presentation": "Poster",
+        "authors": [
+            "Sohan Venkatesh",
+            "Ashish Mahendran Kurapath",
+            "Tejas Melkote"
+        ]
+    },
+    {
+        "number": "53",
+        "forum": "https://openreview.net/forum?id=oNqktinn8A",
+        "title": "Measuring Representation Reorganization from Language Models to Vision-Language Models",
+        "presentation": "Poster",
+        "authors": [
+            "Baki Berkay Altunkaynak",
+            "Ziming Ma",
+            "Ayda Sultan"
+        ]
+    },
+    {
+        "number": "54",
+        "forum": "https://openreview.net/forum?id=2t0kAx8rl5",
+        "title": "EVALUATING THE ROBUSTNESS OF FACT-CHECKING LLMS ON MULTILINGUAL EVIDENCE",
+        "presentation": "Poster",
+        "authors": [
+            "Radhika K. Shah"
+        ]
+    },
+    {
+        "number": "55",
+        "forum": "https://openreview.net/forum?id=JkX0RTGKB7",
+        "title": "GOPO: Policy optimization using ranked rewards",
+        "presentation": "Poster",
+        "authors": [
+            "Kyuseong Choi",
+            "Dwaipayan Saha",
+            "Woojeong Kim",
+            "Anish Agarwal",
+            "Raaz Dwivedi"
+        ]
+    },
+    {
+        "number": "56",
+        "forum": "https://openreview.net/forum?id=XAcJYDoikp",
+        "title": "Many Preferences, Few Policies: Towards Scalable Language Model Personalization",
+        "presentation": "Poster",
+        "authors": [
+            "Cheol Woo Kim",
+            "Jai Moondra",
+            "Roozbeh Nahavandi",
+            "Andrew Perrault",
+            "Milind Tambe",
+            "Swati Gupta"
+        ]
+    },
+    {
+        "number": "57",
+        "forum": "https://openreview.net/forum?id=QvIOpD3asn",
+        "title": "What Black-Box Benchmarks Miss: Open-Ended Generation Under-Measures Memorization in Foundation Models",
+        "presentation": "Poster",
+        "authors": [
+            "Anany Kotawala"
+        ]
+    },
+    {
+        "number": "59",
+        "forum": "https://openreview.net/forum?id=QPXPNEZp0w",
+        "title": "Demystifying Classifier-Free Guidance for Auto-Regressive Image Generation",
+        "presentation": "Oral",
+        "authors": [
+            "Zhiling Zhou",
+            "Jiachun Pan",
+            "Fengzhuo Zhang",
+            "Dirk Bergemann",
+            "Zhuoran Yang"
+        ]
+    },
+    {
+        "number": "60",
+        "forum": "https://openreview.net/forum?id=W5Z8iFhtik",
+        "title": "BoNVoyage: Learning Better Rewards without Ranking",
+        "presentation": "Poster",
+        "authors": [
+            "Gonçalo Faria",
+            "Guang Yang",
+            "Alisa Liu",
+            "Noah A. Smith"
+        ]
+    },
+    {
+        "number": "62",
+        "forum": "https://openreview.net/forum?id=x7juhOGLYw",
+        "title": "When Do Looped Transformers Need More Loops? Calibrated Measurement of External Stop Signals",
+        "presentation": "Poster",
+        "authors": [
+            "Trent Park",
+            "Michael Jiao"
+        ]
+    },
+    {
+        "number": "64",
+        "forum": "https://openreview.net/forum?id=j1wc4ylrmf",
+        "title": "Encoded Early, Used Late: Where Transformers Begin to Act on an Inferred Partner's Expertise",
+        "presentation": "Poster",
+        "authors": [
+            "Mika Okamoto",
+            "Gabriele Sarti"
+        ]
+    },
+    {
+        "number": "65",
+        "forum": "https://openreview.net/forum?id=3wxOiCYAsn",
+        "title": "Mode-seeking in on-policy distillation of language models",
+        "presentation": "Poster",
+        "authors": [
+            "Nicolas Zucchet",
+            "Scott Linderman"
+        ]
+    },
+    {
+        "number": "66",
+        "forum": "https://openreview.net/forum?id=iLBfGXkJWX",
+        "title": "Representation Steering for Emotions in Diffusion Language Models",
+        "presentation": "Poster",
+        "authors": [
+            "Anil Ramakrishna",
+            "Shengyuan Hu",
+            "Will Bullock"
+        ]
+    },
+    {
+        "number": "68",
+        "forum": "https://openreview.net/forum?id=YbedpvxenF",
+        "title": "Stochastic Collapse: Video World Models Fail to Reproduce Outcome Frequencies",
+        "presentation": "Poster",
+        "authors": [
+            "Xue Piao",
+            "xuying li"
+        ]
+    },
+    {
+        "number": "69",
+        "forum": "https://openreview.net/forum?id=A4JrmeTDIU",
+        "title": "Dimension Is Free, Horizon Is Not: When Evolution Strategies Rival Policy Gradients for LLM Fine-Tuning",
+        "presentation": "Poster",
+        "authors": [
+            "Qiyao Liang"
+        ]
+    },
+    {
+        "number": "70",
+        "forum": "https://openreview.net/forum?id=d281F5K35j",
+        "title": "From Refusal to Fabrication: An Affective Cause of Hallucination That Bypasses the Honesty Gate",
+        "presentation": "Poster",
+        "authors": [
+            "Akshat Agarwal",
+            "Brayden Feng",
+            "William Qian",
+            "Ruizhe Li",
+            "Aditya Shah",
+            "Vasu Sharma",
+            "Maheep Chaudhary"
+        ]
+    },
+    {
+        "number": "71",
+        "forum": "https://openreview.net/forum?id=halKc8rsDr",
+        "title": "Discretizing Reward Models",
+        "presentation": "Poster",
+        "authors": [
+            "Vijay Viswanathan",
+            "Shiqi Wang",
+            "Devamanyu Hazarika",
+            "Chirag Nagpal",
+            "Tongshuang Wu",
+            "Graham Neubig",
+            "Yuning Mao"
+        ]
+    },
+    {
+        "number": "72",
+        "forum": "https://openreview.net/forum?id=8BluHwKcT4",
+        "title": "Emergent Misalignment as a Distributional Phase Transition in Rank-1 LoRA Fine-Tuning",
+        "presentation": "Oral",
+        "authors": [
+            "Hikaru Isayama",
+            "Jayden Ramirez",
+            "Santiago Gutierrez",
+            "Anishansu Pradhan",
+            "Tinuade Adeleke"
+        ]
+    },
+    {
+        "number": "74",
+        "forum": "https://openreview.net/forum?id=e793AKHjlm",
+        "title": "Characterizing Learning-Resistant Preferences",
+        "presentation": "Poster",
+        "authors": [
+            "Eve Fleisig",
+            "Yuhan Liu",
+            "Angelica Chen",
+            "Dan Klein"
+        ]
+    },
+    {
+        "number": "75",
+        "forum": "https://openreview.net/forum?id=fUh1LP1vBP",
+        "title": "Don’t Blink: Evidence Collapse during Multimodal Reasoning",
+        "presentation": "Poster",
+        "authors": [
+            "Suresh Raghu",
+            "Satwik Pandey"
+        ]
+    },
+    {
+        "number": "76",
+        "forum": "https://openreview.net/forum?id=j2nPdWdRLs",
+        "title": "Predicting Neural Scaling Laws without Training:  A Data Manifold Oracle",
+        "presentation": "Poster",
+        "authors": [
+            "Hanlin Zhang",
+            "Jikai Jin",
+            "Sham M. Kakade"
+        ]
+    },
+    {
+        "number": "77",
+        "forum": "https://openreview.net/forum?id=qPR24xNtGs",
+        "title": "Structure Before Collapse: Transient semantic geometry in next-token prediction",
+        "presentation": "Poster",
+        "authors": [
+            "Yize Zhao",
+            "Isabel Papadimitriou",
+            "Christos Thrampoulidis"
+        ]
+    },
+    {
+        "number": "78",
+        "forum": "https://openreview.net/forum?id=SuE9SS4HEx",
+        "title": "MMIB: A Mechanistic Interpretability Benchmark for Vision-Language Models",
+        "presentation": "Poster",
+        "authors": [
+            "Dia'a AL-Dweikat",
+            "Abdullah AlDahoul",
+            "Oyedeji Sonuga",
+            "Artur Shyutts",
+            "Jiahang He",
+            "Kevin Zhu",
+            "Ruizhe Li",
+            "Anusha Mujumdar"
+        ]
+    },
+    {
+        "number": "79",
+        "forum": "https://openreview.net/forum?id=mZh0MqpOOC",
+        "title": "Single Canonical Prompts Underestimate LLM Safety's Surface-Form Sensitivity",
+        "presentation": "Poster",
+        "authors": [
+            "Yongxi Zhou",
+            "Junwei Yao",
+            "Wenbo Ye",
+            "Jiaxi Wen",
+            "Lai Yun Choi"
+        ]
+    },
+    {
+        "number": "80",
+        "forum": "https://openreview.net/forum?id=0USddV8e22",
+        "title": "Single-cell foundation models obey data scaling laws on the optimized loss",
+        "presentation": "Poster",
+        "authors": [
+            "Xuefei Wang"
+        ]
+    },
+    {
+        "number": "81",
+        "forum": "https://openreview.net/forum?id=SRkw4pBfKH",
+        "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity",
+        "presentation": "Poster",
+        "authors": [
+            "Ryan Yixiang Wang",
+            "Akshita Bhagia",
+            "Sewon Min"
+        ]
+    },
+    {
+        "number": "82",
+        "forum": "https://openreview.net/forum?id=OPQxPcDUyw",
+        "title": "Matching the Distribution, Not the Mean: Learning Human Rating Distributions with VLMs",
+        "presentation": "Poster",
+        "authors": [
+            "Billy Dickson",
+            "Zoran Tiganj"
+        ]
+    }
+]
