@@ -1,7 +1,7 @@
 """Randomly assign accepted papers to the two poster sessions.
 
 Writes `posterSession` (1 or 2) into src/data/acceptedPapers.json and a CSV
-(paper title, OpenReview ID, poster session) to assets/poster_sessions.csv.
+(paper title, OpenReview link, poster session) to assets/poster_sessions.csv.
 
 Usage: python3 scripts/assign_poster_sessions.py [--force]
 """
@@ -11,17 +11,12 @@ import csv
 import json
 import random
 from pathlib import Path
-from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 PAPERS_PATH = ROOT / 'src' / 'data' / 'acceptedPapers.json'
 CSV_PATH = ROOT / 'assets' / 'poster_sessions.csv'
 SEED = 2026
 SESSION_LABELS = {1: 'Poster Session I', 2: 'Poster Session II'}
-
-
-def openreview_id(forum_url):
-    return parse_qs(urlparse(forum_url).query)['id'][0]
 
 
 def assign(papers):
@@ -52,9 +47,9 @@ def main():
     rows = sorted(papers, key=lambda p: (p['posterSession'], p['title'].lower()))
     with CSV_PATH.open('w', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['Paper Title', 'OpenReview ID', 'Poster Session'])
+        writer.writerow(['Paper Title', 'OpenReview Link', 'Poster Session'])
         for p in rows:
-            writer.writerow([p['title'], openreview_id(p['forum']), SESSION_LABELS[p['posterSession']]])
+            writer.writerow([p['title'], p['forum'], SESSION_LABELS[p['posterSession']]])
 
     for session, label in SESSION_LABELS.items():
         in_session = [p for p in papers if p['posterSession'] == session]
