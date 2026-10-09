@@ -40,7 +40,7 @@ export const hero = {
     'Foundation models have transformed AI across language, vision, science, and multimodal reasoning — but we still lack a systematic scientific understanding of how they represent knowledge, generalize, reason, and align with human intent. This workshop brings together researchers committed to building that understanding.',
   metadata: [
     { label: 'October 9, 2026', icon: 'date' },
-    { label: 'In person at COLM 2026 (Hilton Union Square, SF)', icon: 'location' },
+    { label: 'In person at COLM 2026 (Hilton Union Square, SF), Continental Ballrooms 2 & 3', icon: 'location' },
     { label: 'Live streaming available', icon: 'stream' }  ],
   ctas: [
     { label: 'Call for Papers', href: '#cfp', primary: true },
