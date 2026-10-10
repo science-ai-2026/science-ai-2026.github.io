@@ -1,4 +1,6 @@
 import { schedule } from '@/data/workshop';
+import { awardByForum, awardedPapers } from '@/data/awards';
+import { AwardLabel } from '@/components/AwardIcon';
 
 export default function Schedule() {
   return (
@@ -56,20 +58,46 @@ export default function Schedule() {
                         </span>
                         {'details' in slot && slot.details && (
                           <ul className="mt-2 list-disc space-y-1.5 pl-4">
-                            {slot.details.map((detail) => (
-                              <li key={detail.title} className="text-sm leading-relaxed text-neutral-600">
-                                {detail.forum ? (
-                                  <a
-                                    href={detail.forum}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="underline decoration-neutral-300 underline-offset-2 hover:text-primary-700 hover:decoration-primary-400 focus:outline-none focus:ring-1 focus:ring-primary-600"
-                                  >
-                                    {detail.title}
-                                  </a>
-                                ) : (
-                                  detail.title
-                                )}
+                            {slot.details.map((detail) => {
+                              const award = detail.forum ? awardByForum.get(detail.forum) : undefined;
+                              return (
+                                <li key={detail.title} className="text-sm leading-relaxed text-neutral-600">
+                                  {detail.forum ? (
+                                    <a
+                                      href={detail.forum}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="underline decoration-neutral-300 underline-offset-2 hover:text-primary-700 hover:decoration-primary-400 focus:outline-none focus:ring-1 focus:ring-primary-600"
+                                    >
+                                      {detail.title}
+                                    </a>
+                                  ) : (
+                                    detail.title
+                                  )}
+                                  {award && (
+                                    <span className="block">
+                                      <AwardLabel award={award} size="xs" />
+                                    </span>
+                                  )}
+                                </li>
+                              );
+                            })}
+                          </ul>
+                        )}
+                        {'awards' in slot && slot.awards && (
+                          <ul className="mt-3 space-y-3">
+                            {awardedPapers.map((paper) => (
+                              <li key={paper.forum} className="text-sm leading-relaxed">
+                                <AwardLabel award={paper.award} />
+                                <a
+                                  href={paper.forum}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="block text-neutral-800 underline decoration-neutral-300 underline-offset-2 hover:text-primary-700 hover:decoration-primary-400 focus:outline-none focus:ring-1 focus:ring-primary-600"
+                                >
+                                  {paper.title}
+                                </a>
+                                <span className="block text-xs text-neutral-500">{paper.authors.join(', ')}</span>
                               </li>
                             ))}
                           </ul>

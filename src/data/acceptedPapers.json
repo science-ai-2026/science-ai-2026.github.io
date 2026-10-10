@@ -464,7 +464,8 @@
             "Anja Surina",
             "Caglar Gulcehre"
         ],
-        "posterSession": 1
+        "posterSession": 1,
+        "award": "Best Paper"
     },
     {
         "number": "41",
@@ -521,7 +522,8 @@
             "Alexei A Efros",
             "Yossi Gandelsman"
         ],
-        "posterSession": 1
+        "posterSession": 1,
+        "award": "Best Paper"
     },
     {
         "number": "51",
@@ -700,7 +702,8 @@
         "authors": [
             "Qiyao Liang"
         ],
-        "posterSession": 1
+        "posterSession": 1,
+        "award": "Best Paper Runner-up"
     },
     {
         "number": "70",
@@ -835,7 +838,8 @@
         "authors": [
             "Xuefei Wang"
         ],
-        "posterSession": 1
+        "posterSession": 1,
+        "award": "Best Paper Runner-up"
     },
     {
         "number": "81",

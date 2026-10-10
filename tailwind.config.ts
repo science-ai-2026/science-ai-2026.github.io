@@ -7,6 +7,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        award: {
+          gold: '#B8892A',
+          'gold-ink': '#85621A',
+          silver: '#8A94A1',
+          'silver-ink': '#5B6573',
+        },
         primary: {
           50: 'rgb(239 246 255)',
           100: '#dbe4ff',

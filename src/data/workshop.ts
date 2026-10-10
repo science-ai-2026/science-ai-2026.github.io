@@ -270,7 +270,7 @@ export const schedule = {
     { time: '15:30 - 16:00', event: 'Invited Talk: Jikai Jin (Observational Studies & Prescriptive Scaling)', duration: '30 min' },
     { time: '16:00 - 16:30', event: 'Invited Talk: Hector Liu (Open-Source LLM Training & Transparency)', duration: '30 min' },
     { time: '16:30 - 17:15', event: 'Panel Discussion', duration: '45 min' },
-    { time: '17:15 - 18:00', event: 'Poster Session II & Closing Remarks', duration: '45 min' },
+    { time: '17:15 - 18:00', event: 'Poster Session II, Closing Remarks & Paper Awards', duration: '45 min', awards: true },
   ],
 };
 
